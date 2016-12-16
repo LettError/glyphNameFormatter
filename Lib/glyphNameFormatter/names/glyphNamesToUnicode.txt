@@ -5983,7 +5983,7 @@ opposition 260D
 telephoneblack 260E
 telephonewhite 260F
 checkbox 2610
-checkboxchekced 2611
+checkboxchecked 2611
 checkboxx 2612
 saltire 2613
 umbrellaraindrops 2614
