@@ -75,7 +75,7 @@ Each range processor has a handy debugginh print function that will show an over
 
 * `GlyphName.uniNumber` integer, the unicode number we're working on.
 * `GlyphName.uniName` string, the original unicode character name
-* `GlyphName.processedUniName` string, the edited name.
+* `GlyphName.uniNameProcessed` string, the edited name.
 * `GlyphName.suffixParts` list of name parts that are added at the end. Please use:
 * `GlyphName.suffix(namePart)` use this method to add name parts to the suffix list.
 * `GlyphName.replace(oldPattern, [newPattern])` If no newPattern is given it will assume it is `""` and delete `oldPattern`
