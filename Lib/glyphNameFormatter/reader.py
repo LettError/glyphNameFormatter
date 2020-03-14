@@ -134,7 +134,7 @@ def _parse(path):
 			uni2cat[value] = cat
 
 root = os.path.dirname(glyphNameFormatter.__file__)
-path = os.path.join(root, 'names', sanctionedNameList)
+path = os.path.join(root, 'data', sanctionedNameList)
 if os.path.exists(path):
 	_parse(path)
 else:
