@@ -6,6 +6,7 @@ def process(self):
     self.edit("-")
     self.lower()
     self.compress()
+    self.scriptTag = self.scriptTag + "Compa"
     self.scriptPrefix()
 
 if __name__ == "__main__":
