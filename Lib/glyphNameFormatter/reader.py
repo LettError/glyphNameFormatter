@@ -192,7 +192,7 @@ def U2u(uni):
 	lwrUni = upperToLower.get(uni)
 	if lwrUni is not None:
 		return lwrUni
-	return lwr
+	return uni
 
 if __name__ == "__main__":
 	print("upperToLower map:", len(upperToLower))
