@@ -66,9 +66,9 @@ def process(self):
 
     self.edit("LONG", "long")
     self.edit("LEFTWARDS", "left")
-    self.edit("UPWARDS", "up")
     self.edit("OVER RIGHTWARDS", "overright")
     self.edit("RIGHTWARDS", "right")
+    self.edit("UPWARDS", "up")
     self.edit("DOWNWARDS", "down")
     self.edit("LEFT RIGHT", "leftright")
     self.edit("UP DOWN", "updown")
