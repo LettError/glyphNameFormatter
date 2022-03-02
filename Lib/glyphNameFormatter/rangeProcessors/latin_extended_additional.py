@@ -3,6 +3,8 @@
 def process(self):
     self.edit("LATIN")
     # edits go here
+    self.edit("CAPITAL LETTER D WITH CEDILLA", "Dcommaaccent")
+    self.edit("SMALL LETTER D WITH CEDILLA", "dcommaaccent")
     self.replace("CAPITAL LETTER MIDDLE-WELSH LL", "LLwelsh")
 
     # self.edit("WITH DOT BELOW AND DOT ABOVE", "dotbelow", "dotaccent")

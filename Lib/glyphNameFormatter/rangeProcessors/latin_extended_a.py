@@ -2,8 +2,18 @@
 def process(self):
     self.edit("LATIN")
 
+    self.edit("CAPITAL LETTER G WITH CEDILLA", "Gcommaaccent")
+    self.edit("SMALL LETTER G WITH CEDILLA", "gcommaaccent")
     self.edit("CAPITAL LETTER H WITH STROKE", "Hbar")
     self.edit("SMALL LETTER H WITH STROKE", "hbar")
+    self.edit("CAPITAL LETTER K WITH CEDILLA", "Kcommaaccent")
+    self.edit("SMALL LETTER K WITH CEDILLA", "kcommaaccent")
+    self.edit("CAPITAL LETTER L WITH CEDILLA", "Lcommaaccent")
+    self.edit("SMALL LETTER L WITH CEDILLA", "lcommaaccent")
+    self.edit("CAPITAL LETTER N WITH CEDILLA", "Ncommaaccent")
+    self.edit("SMALL LETTER N WITH CEDILLA", "ncommaaccent")
+    self.edit("CAPITAL LETTER R WITH CEDILLA", "Rcommaaccent")
+    self.edit("SMALL LETTER R WITH CEDILLA", "rcommaaccent")
     self.edit("CAPITAL LETTER T WITH STROKE", "Tbar")
     self.edit("SMALL LETTER T WITH STROKE", "tbar")
     self.edit("CAPITAL LETTER L WITH STROKE", "Lslash")
