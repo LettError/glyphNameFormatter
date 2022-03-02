@@ -2,7 +2,7 @@
 # GlyphNameFormatter version 0.4
 # Unicode version: Unicode 12.1.0
 # Source code: -
-# Generated on 2022 03 02 23:42:32
+# Generated on 2022 03 02 23:47:41
 # <glyphName> <hex unicode>
 # Separator ":"
 # Prefixed "False"
@@ -235,8 +235,8 @@ Gbreve 011E
 gbreve 011F
 Gdotaccent 0120
 gdotaccent 0121
-Gcedilla 0122
-gcedilla 0123
+Gcommaaccent 0122
+gcommaaccent 0123
 Hcircumflex 0124
 hcircumflex 0125
 Hbar 0126
@@ -255,13 +255,13 @@ IJ 0132
 ij 0133
 Jcircumflex 0134
 jcircumflex 0135
-Kcedilla 0136
-kcedilla 0137
+Kcommaaccent 0136
+kcommaaccent 0137
 kra 0138
 Lacute 0139
 lacute 013A
-Lcedilla 013B
-lcedilla 013C
+Lcommaaccent 013B
+lcommaaccent 013C
 Lcaron 013D
 lcaron 013E
 Ldot 013F
@@ -270,8 +270,8 @@ Lslash 0141
 lslash 0142
 Nacute 0143
 nacute 0144
-Ncedilla 0145
-ncedilla 0146
+Ncommaaccent 0145
+ncommaaccent 0146
 Ncaron 0147
 ncaron 0148
 napostrophe 0149
@@ -287,8 +287,8 @@ OE 0152
 oe 0153
 Racute 0154
 racute 0155
-Rcedilla 0156
-rcedilla 0157
+Rcommaaccent 0156
+rcommaaccent 0157
 Rcaron 0158
 rcaron 0159
 Sacute 015A
@@ -4430,8 +4430,8 @@ Ddotbelow 1E0C
 ddotbelow 1E0D
 Dlinebelow 1E0E
 dlinebelow 1E0F
-Dcedilla 1E10
-dcedilla 1E11
+Dcommaaccent 1E10
+dcommaaccent 1E11
 Dcircumflexbelow 1E12
 dcircumflexbelow 1E13
 Emacrongrave 1E14

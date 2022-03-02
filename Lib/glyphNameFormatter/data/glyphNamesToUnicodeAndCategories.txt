@@ -2,7 +2,7 @@
 # GlyphNameFormatter version 0.4
 # Unicode version: Unicode 12.1.0
 # Source code: -
-# Generated on 2022 03 02 23:42:26
+# Generated on 2022 03 02 23:47:35
 # <glyphName> <hex unicode> <unicodeCategory>
 #
 # Basic Latin
@@ -233,8 +233,8 @@ Gbreve 011E Lu
 gbreve 011F Ll
 Gdotaccent 0120 Lu
 gdotaccent 0121 Ll
-Gcedilla 0122 Lu
-gcedilla 0123 Ll
+Gcommaaccent 0122 Lu
+gcommaaccent 0123 Ll
 Hcircumflex 0124 Lu
 hcircumflex 0125 Ll
 Hbar 0126 Lu
@@ -253,13 +253,13 @@ IJ 0132 Lu
 ij 0133 Ll
 Jcircumflex 0134 Lu
 jcircumflex 0135 Ll
-Kcedilla 0136 Lu
-kcedilla 0137 Ll
+Kcommaaccent 0136 Lu
+kcommaaccent 0137 Ll
 kra 0138 Ll
 Lacute 0139 Lu
 lacute 013A Ll
-Lcedilla 013B Lu
-lcedilla 013C Ll
+Lcommaaccent 013B Lu
+lcommaaccent 013C Ll
 Lcaron 013D Lu
 lcaron 013E Ll
 Ldot 013F Lu
@@ -268,8 +268,8 @@ Lslash 0141 Lu
 lslash 0142 Ll
 Nacute 0143 Lu
 nacute 0144 Ll
-Ncedilla 0145 Lu
-ncedilla 0146 Ll
+Ncommaaccent 0145 Lu
+ncommaaccent 0146 Ll
 Ncaron 0147 Lu
 ncaron 0148 Ll
 napostrophe 0149 Ll
@@ -285,8 +285,8 @@ OE 0152 Lu
 oe 0153 Ll
 Racute 0154 Lu
 racute 0155 Ll
-Rcedilla 0156 Lu
-rcedilla 0157 Ll
+Rcommaaccent 0156 Lu
+rcommaaccent 0157 Ll
 Rcaron 0158 Lu
 rcaron 0159 Ll
 Sacute 015A Lu
@@ -4428,8 +4428,8 @@ Ddotbelow 1E0C Lu
 ddotbelow 1E0D Ll
 Dlinebelow 1E0E Lu
 dlinebelow 1E0F Ll
-Dcedilla 1E10 Lu
-dcedilla 1E11 Ll
+Dcommaaccent 1E10 Lu
+dcommaaccent 1E11 Ll
 Dcircumflexbelow 1E12 Lu
 dcircumflexbelow 1E13 Ll
 Emacrongrave 1E14 Lu
