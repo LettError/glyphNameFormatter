@@ -194,9 +194,17 @@ def U2u(uni):
 		return lwrUni
 	return uni
 
+def isUpper(uni):
+    return chr(uni).isupper()
+
 if __name__ == "__main__":
 	print("upperToLower map:", len(upperToLower))
 	print("lowerToUpper map:", len(lowerToUpper))
+
+	print("A", isUpper(ord("A")))
+	print("a", isUpper(ord("a")))
+	print("!", isUpper(ord("!")))
+
 	allNames = list(name2uni.keys())
 	allNames.sort()
 	print("\ntest lower -> upper -> lower")

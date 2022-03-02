@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.4 - git commit: 468
+# GlyphNameFormatter version 0.4
 # Unicode version: Unicode 12.1.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/c6b4b20
-# Generated on 2019 12 10 10:05:05
+# Source code: -
+# Generated on 2022 03 02 23:42:34
 # <glyphName> <hex unicode>
 # Separator "-"
 # Prefixed "True"
@@ -122,14 +122,14 @@ registered 00AE
 macron 00AF
 degree 00B0
 plusminus 00B1
-twosuperior 00B2
-threesuperior 00B3
+two.superior 00B2
+three.superior 00B3
 acute 00B4
 mu.math 00B5
 paragraph 00B6
 periodcentered 00B7
 cedilla 00B8
-onesuperior 00B9
+one.superior 00B9
 ordmasculine 00BA
 guillemetright 00BB
 onequarter 00BC
@@ -5268,7 +5268,7 @@ arrowleftrightwave 21AD
 arrowleftrightstroke 21AE
 arrowdownzigzag 21AF
 arrowleftuptip 21B0
-arrowuprighttip 21B1
+arrowrightuptip 21B1
 arrowleftdowntip 21B2
 arrowrightdowntip 21B3
 arrowrightdowncorner 21B4
