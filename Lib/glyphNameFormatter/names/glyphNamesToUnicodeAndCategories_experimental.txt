@@ -2,7 +2,7 @@
 # GlyphNameFormatter version 0.4
 # Unicode version: Unicode 12.1.0
 # Source code: -
-# Generated on 2022 03 02 23:47:37
+# Generated on 2022 03 03 00:07:00
 # <glyphName> <hex unicode> <unicodeCategory>
 #
 # Basic Latin
@@ -6799,7 +6799,7 @@ fallingdiagonal 27CD Sm
 dlogicalsquare 27CE Sm
 dlogicalorsquare 27CF Sm
 centreddotwhitediamond 27D0 Sm
-dot 27D1 Sm
+andwithdot 27D1 Sm
 elementopeningup 27D2 Sm
 lowercornerdotright 27D3 Sm
 cornerdotupleft 27D4 Sm

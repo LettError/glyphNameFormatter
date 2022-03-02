@@ -3,6 +3,7 @@
 def process(self):
     self.edit("MATHEMATICAL")
     self.replace("PARENTHESIS", "paren")
+    self.edit("AND WITH DOT", "andwithdot")
     self.edit("FLATTENED", "flat")
     self.edit("CONCAVE-SIDED DIAMOND", "convavediamond")
     self.edit("LEFTWARDS", "left")
