@@ -82,12 +82,12 @@ def uniPatternName(v):
 
 def u2n(value):
 	"""Unicode value to glyphname"""
-	global uni2name
-	v = uni2name.get(value)
-	if v is not None:
-		return v
+	if value is None:
+	    return None
 	if isIdeograph(value):
 		return uniPatternName(value)
+	global uni2name
+	return uni2name.get(value)
 
 def n2u(name):
 	"""Glyphname to Unicode value"""
@@ -198,61 +198,55 @@ def isUpper(uni):
     return chr(uni).isupper()
 
 if __name__ == "__main__":
-	print("upperToLower map:", len(upperToLower))
-	print("lowerToUpper map:", len(lowerToUpper))
+    print("upperToLower map:", len(upperToLower))
+    print("lowerToUpper map:", len(lowerToUpper))
 
-	print("A", isUpper(ord("A")))
-	print("a", isUpper(ord("a")))
-	print("!", isUpper(ord("!")))
+    print("A", isUpper(ord("A")))
+    print("a", isUpper(ord("a")))
+    print("!", isUpper(ord("!")))
 
-	allNames = list(name2uni.keys())
-	allNames.sort()
-	print("\ntest lower -> upper -> lower")
-	for n in allNames:
-		upr = n2N(n)
-		if upr != n and upr is not None:
-			lwr = N2n(upr)
-			if n != lwr:
-				print("\t\tn2N failed", n, "->", upr, "->", lwr)
-			#else:
-			#	print("\ta ok", n, "->", upr, "->", lwr)
+    allNames = list(name2uni.keys())
+    allNames.sort()
+    print("\ntest lower -> upper -> lower")
+    if False:
+        for n in allNames:
+            upr = n2N(n)
+            if upr != n and upr is not None:
+                lwr = N2n(upr)
+                if n != lwr:
+                    print("\t\tn2N failed", n, "->", upr, "->", lwr)
 
-		lwr = N2n(n)
-		if lwr != n and lwr is not None:
-			upr = n2N(lwr)
-			if n != upr:
-				print("\t\tN2n failed", n, "->", lwr, "->", upr)
-			#else:
-			#	print("\tb ok", n, "->", lwr, "->", upr)
-	assert N2n("non-existing-glyphname") == "non-existing-glyphname"
-	assert n2N("non-existing-glyphname") == "non-existing-glyphname"
-	assert n2N("germandbls") == "germandbls"
-	assert N2n("A") == 'a'
-	assert n2N("a") == 'A'
-	assert U2u(65) == 97	# A -> a
-	assert u2U(97) == 65	# a -> A
+            lwr = N2n(n)
+            if lwr != n and lwr is not None:
+                upr = n2N(lwr)
+            if n != upr:
+                print("\t\tN2n failed", n, "->", lwr, "->", upr)
+    assert N2n("non-existing-glyphname") == "non-existing-glyphname"
+    assert n2N("non-existing-glyphname") == "non-existing-glyphname"
+    assert n2N("germandbls") == "germandbls"
+    assert N2n("A") == 'a'
+    assert n2N("a") == 'A'
+    assert U2u(65) == 97	# A -> a
+    assert u2U(97) == 65	# a -> A
 
-	# ideograph support
-	assert isIdeograph(1) == False
-	assert isIdeograph(0x2A700) == True
-	testIdeographValues = [0x2A700, 0x3401, 0x9FFF]
-	for v in testIdeographValues:
-		assert n2u(u2n(v)) == v
-	# check if a value an ideographRange returns the proper name
-	for k, v in ideographRanges.items():
-		a, b = k
-		c = int(.5*(a+b))
-		assert u2r(c) == v
+    # ideograph support
+    assert isIdeograph(1) == False
+    assert isIdeograph(0x2A700) == True
+    print(u2n(0x2A700))
+    testIdeographValues = [0x2A700, 0x3401, 0x9FFF]
+    for v in testIdeographValues:
+        assert n2u(u2n(v)) == v
+    # check if a value an ideographRange returns the proper name
 
-	if False:
-		allNames = list(name2uni.keys())
-		allNames.sort()
-		for n in allNames:
-			print(n)
-			assert(n == u2n(n2u(n)))
+    for k, v in ideographRanges.items():
+        a, b = k
+        c = int(.5*(a+b))
+        assert u2r(c) == v
 
-
-		for n in allNames:
-			u = n2u(n)
-			print(n, u2r(u))
-
+    if False:    # really long print of all possible names
+        minUni = min(uni2name.keys())
+        maxUni = max(uni2name.keys())
+        for u in range(minUni, maxUni):
+            r = u2n(u)
+            if r is not None:
+                print(f'{u}:\t{u2n(u)}')
