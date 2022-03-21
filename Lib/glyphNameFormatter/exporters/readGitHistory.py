@@ -64,27 +64,52 @@ def readList(text):
 			print(f"ignoring improperly formatted line: expected {expectedLength} items: \"{l}\"" )
 	return True, date, unis
 
+
+
+# global for all the things we find
+history = []
+
 topLevelDir = subprocess.check_output(["git", "rev-parse", "HEAD", "--show-toplevel"]).decode("utf-8")
 topLevelDir = topLevelDir.split('\n')[1]
-#print('topLevelDir', topLevelDir)
-
 absPath = os.path.join(topLevelDir, "Lib", 'glyphNameFormatter', "names", listFileName)
 relPath = os.path.join("Lib", 'glyphNameFormatter', "names", listFileName)
 
+# interrogate the repo
+
+# hashToTag = {}
+# tags = subprocess.check_output(["git", "tag", "-l", "--sort=refname"]).decode("utf-8")
+# print(tags)
+# tags = [t.strip() for t in tags.split("\n")]
+# for tag in tags:
+# 	print(tag)
+# 	if not tag: continue
+# 	mm = subprocess.check_output(["git", "rev-list", "-n", "1", tag]).decode("utf-8")
+# 	print(mm)
+
+# 	mf = subprocess.check_output(["git", "rev-list", "--tags", tag, absPath, ]).decode("utf-8")
+# 	print("-----", mf)
+# 	for hsh in mf.split("\n"):
+# 		hashToTag[hsh] = tag
+# #print('topLevelDir', topLevelDir)
+# print(hashToTag)
 
 output = subprocess.check_output(["git", "rev-list", "--all", "--reverse", absPath, ])
 output = str(output, encoding="utf-8")
 
-history = []
+# for i, hsh in enumerate(hashToTag.keys()):
+# 	tag = hashToTag[hsh]
+# 	cmd = ["git", "show", f"{hsh}:{relPath}"]
+# 	#print(cmd)
+# 	#continue
+# 	f = subprocess.check_output(cmd)
+# 	f = str(f, encoding="utf-8")
+
+
+
 for i, hsh in enumerate(output.split('\n')):
 	if not hsh:
 		continue
-	#print(i, hsh)
-
-
 	cmd = ["git", "show", f"{hsh}:{relPath}"]
-	#print(cmd)
-	#continue
 	f = subprocess.check_output(cmd)
 	f = str(f, encoding="utf-8")
 	#git show git_hash:./file.py
@@ -115,7 +140,7 @@ def historyForUni(uni):
 	return hst
 
 if __name__ == "__main__":
-	for u in range(1, 0x1FFFF):
+	for u in range(1, 0xFFFFF):
 		h = historyForUni(u)
 		if len(h) > 1:
 			print(u, h)
