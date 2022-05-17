@@ -195,7 +195,9 @@ def U2u(uni):
 	return uni
 
 def isUpper(uni):
-    return chr(uni).isupper()
+	if uni is None:
+		return False
+	return chr(uni).isupper()
 
 if __name__ == "__main__":
     print("upperToLower map:", len(upperToLower))
