@@ -6,7 +6,7 @@
 
 ### Note:
 
-This coverage page is has some issues.
+This coverage page has some issues.
 
  * Most of the Unicode data is downloaded from Unicode.org. Only the bidirectional data still depends on the Python unicodedata module..
  * Narrow build Python might also leave some names inaccessible.
