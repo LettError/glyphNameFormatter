@@ -128,7 +128,7 @@ if os.path.exists(flatUnicodePath):
             lowerToUpper[uniNumber] = uniUppercase
         unicodelist[uniNumber] = uniName
         unicodeCategories[uniNumber] = uniCategory
-        if mathFlag is not '':
+        if mathFlag != '':
             mathUniNumbers.append(uniNumber)
 
     unicodeVersion = lines[0].replace("#", "").strip()
