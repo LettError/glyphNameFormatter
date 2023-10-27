@@ -23,7 +23,7 @@ format
 
 URL = "http://www.unicode.org/Public/{version}/ucdxml/ucd.all.flat.zip"
 
-UNICODE_VERSION = "14.0.0"
+UNICODE_VERSION = "15.0.0"
 UCD_ZIP_FILE = "ucd.all.flat.zip"
 UCD_FILE = UCD_ZIP_FILE[:-3] + "xml"
 FLAT_FILE = "flatUnicode.txt"

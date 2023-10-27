@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.7 - git commit: 493
-# Unicode version: Unicode 12.1.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/ab99b8d
-# Generated on 2022 05 17 10:46:35
+# GlyphNameFormatter version 0.7 - git commit: 499
+# Unicode version: Unicode 15.0.0
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/ad3f0a0
+# Generated on 2023 10 27 09:48:12
 # <glyphName> <hex unicode>
 # Separator ":"
 # Prefixed "True"
@@ -1482,6 +1482,7 @@ dammasmall 0619
 kasrasmall 061A
 arsemicolon 061B
 mark 061C
+endoftextmark 061D
 tripledot 061E
 arquestion 061F
 kashmiriyeh 0620
@@ -2220,6 +2221,7 @@ orya:aisign 0B48
 orya:osign 0B4B
 orya:ausign 0B4C
 orya:virama 0B4D
+orya:signoverline 0B55
 orya:ailengthmark 0B56
 orya:aulengthmark 0B57
 orya:rra 0B5C
@@ -2376,6 +2378,7 @@ telu:sha 0C36
 telu:ssa 0C37
 telu:sa 0C38
 telu:ha 0C39
+telu:nukta 0C3C
 telu:avagraha 0C3D
 telu:aasign 0C3E
 telu:isign 0C3F
@@ -2396,6 +2399,7 @@ telu:ailengthmark 0C56
 telu:tsa 0C58
 telu:dza 0C59
 telu:rrra 0C5A
+telu:nakaarapollu 0C5D
 telu:vocalicrr 0C60
 telu:vocalicll 0C61
 telu:vocaliclsign 0C62
@@ -2492,6 +2496,7 @@ knda:ausign 0CCC
 knda:virama 0CCD
 knda:length 0CD5
 knda:ailength 0CD6
+knda:nakaarapollu 0CDD
 knda:fa 0CDE
 knda:rrvocal 0CE0
 knda:llvocal 0CE1
@@ -2509,11 +2514,13 @@ knda:eight 0CEE
 knda:nine 0CEF
 knda:jihvamuliya 0CF1
 knda:upadhmaniya 0CF2
+knda:signcombininganusvaraaboveright 0CF3
 # Malayalam
 mlym:combininganusvaraabovesign 0D00
 mlym:candrabindusign 0D01
 mlym:anusvarasign 0D02
 mlym:visargasign 0D03
+mlym:vedicanusvara 0D04
 mlym:a 0D05
 mlym:aa 0D06
 mlym:i 0D07
@@ -2628,6 +2635,7 @@ mlym:lchillu 0D7D
 mlym:llchillu 0D7E
 mlym:kchillu 0D7F
 # Sinhala
+sinh:candrabindu 0D81
 sinh:anusvara 0D82
 sinh:visarga 0D83
 sinh:a 0D85
@@ -3922,6 +3930,7 @@ mong:freevariationselectorone 180B
 mong:freevariationselectortwo 180C
 mong:freevariationselectorthree 180D
 mong:vowelseparator 180E
+mong:freevariationselectorfour 180F
 mong:zero 1810
 mong:one 1811
 mong:two 1812
@@ -4408,6 +4417,7 @@ kavykaaboverightcmb 1DF6
 kavykaaboveleftcmb 1DF7
 dotaboveleftcmb 1DF8
 wideinvertedbridgebelowcmb 1DF9
+dotbelowleftcmb 1DFA
 deletionmarkcmb 1DFB
 doubleinvertedbelowbrevecmb 1DFC
 almostequaltobelowcmb 1DFD
@@ -5092,6 +5102,8 @@ manat 20BC
 ruble 20BD
 lari 20BE
 bitcoin 20BF
+som 20C0
+# Combining Diacritical Marks for Symbols
 # Letterlike Symbols
 accountof 2100
 addressedsubject 2101
@@ -7137,6 +7149,7 @@ Izhitsa 2C2B
 Shtapic 2C2C
 Trokutastia 2C2D
 Latinatemyslite 2C2E
+Caudatechrivi 2C2F
 azu 2C30
 buky 2C31
 vede 2C32
@@ -7184,6 +7197,7 @@ izhitsa 2C5B
 shtapic 2C5C
 trokutastia 2C5D
 latinatemyslite 2C5E
+caudatechrivi 2C5F
 # Latin Extended-C
 Ldblbar 2C60
 ldblbar 2C61
@@ -7339,6 +7353,20 @@ medievalcomma 2E4C
 paragraphus 2E4D
 punctuselevatus 2E4E
 cornishversedivider 2E4F
+crosspattywithcrossbarright 2E50
+crosspattywithcrossbarleft 2E51
+tironiansigncapitalet 2E52
+medievalexclamation 2E53
+medievalquestion 2E54
+squarebracketwithstrokeleft 2E55
+squarebracketwithstrokeright 2E56
+squarebracketwithstrokedblleft 2E57
+squarebracketwithstrokedblright 2E58
+parenhalftopleft 2E59
+parenhalftopright 2E5A
+parenhalfbottomleft 2E5B
+parenhalfbottomright 2E5C
+hyphenoblique 2E5D
 # CJK Symbols and Punctuation
 ideographicspace 3000
 ideographiccomma 3001
@@ -8408,11 +8436,30 @@ Glottali A7BC
 glottali A7BD
 Glottalu A7BE
 glottalu A7BF
+Oldpolisho A7C0
+oldpolisho A7C1
 Anglicanaw A7C2
 anglicanaw A7C3
 Cpalatalhook A7C4
 Shook A7C5
 Zpalatalhook A7C6
+Dshortstroke A7C7
+dshortstroke A7C8
+Sshortstroke A7C9
+sshortstroke A7CA
+Ginsularclosed A7D0
+ginsularclosed A7D1
+doublethorn A7D3
+doublewynn A7D5
+Middlescotss A7D6
+middlescotss A7D7
+Sigmoids A7D8
+sigmoids A7D9
+Cmod A7F2
+Fmod A7F3
+Qmod A7F4
+Halfhreversed A7F5
+halfhreversed A7F6
 iepigraphicsideways A7F7
 Hstrokemod A7F8
 ligatureoemod A7F9
@@ -8571,6 +8618,10 @@ alphainverted AB64
 lt:Omegasmall AB65
 dzdigraphretroflexhook AB66
 tsdigraphretroflexhook AB67
+rmiddletildeturned AB68
+wturnedmod AB69
+LETTERLEFTTACKmod AB6A
+LETTERRIGHTTACKmod AB6B
 # Cherokee Supplement
 chrk:asmall AB70
 chrk:esmall AB71
@@ -8827,6 +8878,7 @@ symboltwodotsverticallybelow FBBE
 symbolring FBBF
 symboltahabovesmall FBC0
 symboltahbelowsmall FBC1
+symbolabovewasla FBC2
 ng.isol FBD3
 ng.fina FBD4
 ng.init FBD5
@@ -9192,6 +9244,22 @@ alef.medi_fathatan.fina FD3C
 alef.init_fathatan.fina FD3D
 ornateleftparenthesis FD3E
 ornaterightparenthesis FD3F
+RahimahuAllaah FD40
+RadiAllaahuAnh FD41
+RadiAllaahuAnhaa FD42
+RadiAllaahuAnhum FD43
+RadiAllaahuAnhumaa FD44
+RadiAllaahuAnhunna FD45
+SallallaahuAlayhiWaAalih FD46
+AlayhiAsSalaam FD47
+AlayhimAsSalaam FD48
+AlayhimaaAsSalaam FD49
+AlayhiAsSalaatuWasSalaam FD4A
+QuddisaSirrah FD4B
+SallallahuAlayhiWaaaliheeWaSallam FD4C
+AlayhaaAsSalaam FD4D
+TabaarakaWaTaaalaa FD4E
+RahimahumAllaah FD4F
 teh.init_jeem.medi_meem.medi FD50
 teh.medi_hah.medi_jeem.fina FD51
 teh.init_hah.medi_jeem.medi FD52
@@ -9310,6 +9378,7 @@ ain.init_jeem.medi_meem.medi FDC4
 sad.init_meem.medi_meem.medi FDC5
 seen.medi_khah.medi_yeh.fina FDC6
 noon.medi_jeem.medi_yeh.fina FDC7
+SalaamuhuAlaynaa FDCF
 SallaUsedAsKoranicStopSign FDF0
 QalaUsedAsKoranicStopSign FDF1
 Allah FDF2
@@ -9324,6 +9393,8 @@ SallallahouAlayheWasallam FDFA
 Jallajalalouhou FDFB
 rial FDFC
 BismillahArRahmanArRaheem FDFD
+SubhaanahuWaTaaalaa FDFE
+AzzaWaJall FDFF
 # Vertical Forms
 vert:comma FE10
 vert:ideographiccomma FE11
@@ -11037,6 +11108,9 @@ eightcomma 1F109
 ninecomma 1F10A
 dingbatSAns-serifzerocircle 1F10B
 dingbatSAns-serifzerocircleblack 1F10C
+zerowithslashcircle 1F10D
+anticlockwisearrowcircle 1F10E
+dollarsignwithoverlaidbackslashcircle 1F10F
 Aparens 1F110
 Bparens 1F111
 Cparens 1F112
@@ -11130,6 +11204,9 @@ Zcircleblack 1F169
 raisedmcsign 1F16A
 raisedmdsign 1F16B
 raisedmrsign 1F16C
+cccircle 1F16D
+cwithoverlaidbackslashcircle 1F16E
+humanfigurecircle 1F16F
 Asquareblack 1F170
 Bsquareblack 1F171
 Csquareblack 1F172
@@ -11191,6 +11268,7 @@ losslesssquare 1F1A9
 shvsquare 1F1AA
 uhdsquare 1F1AB
 vodsquare 1F1AC
+maskworksymbol 1F1AD
 regionalindicatorsymbollettera 1F1E6
 regionalindicatorsymbolletterb 1F1E7
 regionalindicatorsymbolletterc 1F1E8
@@ -12154,6 +12232,12 @@ shoppingTrolley 1F6D2
 stupa 1F6D3
 pagoda 1F6D4
 hinduTemple 1F6D5
+hut 1F6D6
+elevator 1F6D7
+wireless 1F6DC
+playgroundSlide 1F6DD
+wheel 1F6DE
+ringBuoy 1F6DF
 hammerAndWrench 1F6E0
 shield 1F6E1
 oilDrum 1F6E2
@@ -12178,3 +12262,5 @@ sled 1F6F7
 flyingSaucer 1F6F8
 skateboard 1F6F9
 autoRickshaw 1F6FA
+pickupTruck 1F6FB
+rollerSkate 1F6FC

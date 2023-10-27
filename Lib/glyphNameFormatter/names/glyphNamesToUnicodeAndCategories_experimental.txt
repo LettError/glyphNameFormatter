@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.7 - git commit: 493
-# Unicode version: Unicode 12.1.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/ab99b8d
-# Generated on 2022 05 17 10:46:33
+# GlyphNameFormatter version 0.7 - git commit: 499
+# Unicode version: Unicode 15.0.0
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/ad3f0a0
+# Generated on 2023 10 27 09:48:11
 # <glyphName> <hex unicode> <unicodeCategory>
 #
 # Basic Latin
@@ -1480,6 +1480,7 @@ dammasmall 0619 Mn
 kasrasmall 061A Mn
 arsemicolon 061B Po
 mark 061C Cf
+endoftextmark 061D Po
 tripledot 061E Po
 arquestion 061F Po
 kashmiriyeh 0620 Lo
@@ -2218,6 +2219,7 @@ orya:aisign 0B48 Mc
 orya:osign 0B4B Mc
 orya:ausign 0B4C Mc
 orya:virama 0B4D Mn
+orya:signoverline 0B55 Mn
 orya:ailengthmark 0B56 Mn
 orya:aulengthmark 0B57 Mc
 orya:rra 0B5C Lo
@@ -2374,6 +2376,7 @@ telu:sha 0C36 Lo
 telu:ssa 0C37 Lo
 telu:sa 0C38 Lo
 telu:ha 0C39 Lo
+telu:nukta 0C3C Mn
 telu:avagraha 0C3D Lo
 telu:aasign 0C3E Mn
 telu:isign 0C3F Mn
@@ -2394,6 +2397,7 @@ telu:ailengthmark 0C56 Mn
 telu:tsa 0C58 Lo
 telu:dza 0C59 Lo
 telu:rrra 0C5A Lo
+telu:nakaarapollu 0C5D Lo
 telu:vocalicrr 0C60 Lo
 telu:vocalicll 0C61 Lo
 telu:vocaliclsign 0C62 Mn
@@ -2490,6 +2494,7 @@ knda:ausign 0CCC Mn
 knda:virama 0CCD Mn
 knda:length 0CD5 Mc
 knda:ailength 0CD6 Mc
+knda:nakaarapollu 0CDD Lo
 knda:fa 0CDE Lo
 knda:rrvocal 0CE0 Lo
 knda:llvocal 0CE1 Lo
@@ -2507,11 +2512,13 @@ knda:eight 0CEE Nd
 knda:nine 0CEF Nd
 knda:jihvamuliya 0CF1 Lo
 knda:upadhmaniya 0CF2 Lo
+knda:signcombininganusvaraaboveright 0CF3 Mc
 # Malayalam
 mlym:combininganusvaraabovesign 0D00 Mn
 mlym:candrabindusign 0D01 Mn
 mlym:anusvarasign 0D02 Mc
 mlym:visargasign 0D03 Mc
+mlym:vedicanusvara 0D04 Lo
 mlym:a 0D05 Lo
 mlym:aa 0D06 Lo
 mlym:i 0D07 Lo
@@ -2626,6 +2633,7 @@ mlym:lchillu 0D7D Lo
 mlym:llchillu 0D7E Lo
 mlym:kchillu 0D7F Lo
 # Sinhala
+sinh:candrabindu 0D81 Mn
 sinh:anusvara 0D82 Mc
 sinh:visarga 0D83 Mc
 sinh:a 0D85 Lo
@@ -3920,6 +3928,7 @@ mong:freevariationselectorone 180B Mn
 mong:freevariationselectortwo 180C Mn
 mong:freevariationselectorthree 180D Mn
 mong:vowelseparator 180E Cf
+mong:freevariationselectorfour 180F Mn
 mong:zero 1810 Nd
 mong:one 1811 Nd
 mong:two 1812 Nd
@@ -4406,6 +4415,7 @@ kavykaaboverightcmb 1DF6 Mn
 kavykaaboveleftcmb 1DF7 Mn
 dotaboveleftcmb 1DF8 Mn
 wideinvertedbridgebelowcmb 1DF9 Mn
+dotbelowleftcmb 1DFA Mn
 deletionmarkcmb 1DFB Mn
 doubleinvertedbelowbrevecmb 1DFC Mn
 almostequaltobelowcmb 1DFD Mn
@@ -5090,6 +5100,41 @@ manat 20BC Sc
 ruble 20BD Sc
 lari 20BE Sc
 bitcoin 20BF Sc
+som 20C0 Sc
+# Combining Diacritical Marks for Symbols
+COMBININGLEFTHARPOONABOVE 20D0 Mn
+COMBININGRIGHTHARPOONABOVE 20D1 Mn
+COMBININGLONGVERTICALLINEOVERLAY 20D2 Mn
+COMBININGSHORTVERTICALLINEOVERLAY 20D3 Mn
+COMBININGANTICLOCKWISEARROWABOVE 20D4 Mn
+COMBININGCLOCKWISEARROWABOVE 20D5 Mn
+COMBININGLEFTARROWABOVE 20D6 Mn
+COMBININGRIGHTARROWABOVE 20D7 Mn
+COMBININGRINGOVERLAY 20D8 Mn
+COMBININGCLOCKWISERINGOVERLAY 20D9 Mn
+COMBININGANTICLOCKWISERINGOVERLAY 20DA Mn
+COMBININGTHREEDOTSABOVE 20DB Mn
+COMBININGFOURDOTSABOVE 20DC Mn
+COMBININGENCLOSINGCIRCLE 20DD Me
+COMBININGENCLOSINGSQUARE 20DE Me
+COMBININGENCLOSINGDIAMOND 20DF Me
+COMBININGENCLOSINGCIRCLEBACKSLASH 20E0 Me
+COMBININGLEFTRIGHTARROWABOVE 20E1 Mn
+COMBININGENCLOSINGSCREEN 20E2 Me
+COMBININGENCLOSINGKEYCAP 20E3 Me
+COMBININGENCLOSINGUPWARDPOINTINGTRIANGLE 20E4 Me
+COMBININGREVERSESOLIDUSOVERLAY 20E5 Mn
+COMBININGDOUBLEVERTICALSTROKEOVERLAY 20E6 Mn
+COMBININGANNUITYSYMBOL 20E7 Mn
+COMBININGTRIPLEUNDERDOT 20E8 Mn
+COMBININGWIDEBRIDGEABOVE 20E9 Mn
+COMBININGLEFTWARDSARROWOVERLAY 20EA Mn
+COMBININGLONGDOUBLESOLIDUSOVERLAY 20EB Mn
+COMBININGRIGHTWARDSHARPOONWITHBARBDOWNWARDS 20EC Mn
+COMBININGLEFTWARDSHARPOONWITHBARBDOWNWARDS 20ED Mn
+COMBININGLEFTARROWBELOW 20EE Mn
+COMBININGRIGHTARROWBELOW 20EF Mn
+COMBININGASTERISKABOVE 20F0 Mn
 # Letterlike Symbols
 accountof 2100 So
 addressedsubject 2101 So
@@ -7135,6 +7180,7 @@ Izhitsa 2C2B Lu
 Shtapic 2C2C Lu
 Trokutastia 2C2D Lu
 Latinatemyslite 2C2E Lu
+Caudatechrivi 2C2F Lu
 azu 2C30 Ll
 buky 2C31 Ll
 vede 2C32 Ll
@@ -7182,6 +7228,7 @@ izhitsa 2C5B Ll
 shtapic 2C5C Ll
 trokutastia 2C5D Ll
 latinatemyslite 2C5E Ll
+caudatechrivi 2C5F Ll
 # Latin Extended-C
 Ldblbar 2C60 Lu
 ldblbar 2C61 Ll
@@ -7337,6 +7384,20 @@ medievalcomma 2E4C Po
 paragraphus 2E4D Po
 punctuselevatus 2E4E Po
 cornishversedivider 2E4F Po
+crosspattywithcrossbarright 2E50 So
+crosspattywithcrossbarleft 2E51 So
+tironiansigncapitalet 2E52 Po
+medievalexclamation 2E53 Po
+medievalquestion 2E54 Po
+squarebracketwithstrokeleft 2E55 Ps
+squarebracketwithstrokeright 2E56 Pe
+squarebracketwithstrokedblleft 2E57 Ps
+squarebracketwithstrokedblright 2E58 Pe
+parenhalftopleft 2E59 Ps
+parenhalftopright 2E5A Pe
+parenhalfbottomleft 2E5B Ps
+parenhalfbottomright 2E5C Pe
+hyphenoblique 2E5D Pd
 # CJK Symbols and Punctuation
 ideographicspace 3000 Zs
 ideographiccomma 3001 Po
@@ -8406,11 +8467,30 @@ Glottali A7BC Lu
 glottali A7BD Ll
 Glottalu A7BE Lu
 glottalu A7BF Ll
+Oldpolisho A7C0 Lu
+oldpolisho A7C1 Ll
 Anglicanaw A7C2 Lu
 anglicanaw A7C3 Ll
 Cpalatalhook A7C4 Lu
 Shook A7C5 Lu
 Zpalatalhook A7C6 Lu
+Dshortstroke A7C7 Lu
+dshortstroke A7C8 Ll
+Sshortstroke A7C9 Lu
+sshortstroke A7CA Ll
+Ginsularclosed A7D0 Lu
+ginsularclosed A7D1 Ll
+doublethorn A7D3 Ll
+doublewynn A7D5 Ll
+Middlescotss A7D6 Lu
+middlescotss A7D7 Ll
+Sigmoids A7D8 Lu
+sigmoids A7D9 Ll
+Cmod A7F2 Lm
+Fmod A7F3 Lm
+Qmod A7F4 Lm
+Halfhreversed A7F5 Lu
+halfhreversed A7F6 Ll
 iepigraphicsideways A7F7 Lo
 Hstrokemod A7F8 Lm
 ligatureoemod A7F9 Lm
@@ -8569,6 +8649,10 @@ alphainverted AB64 Ll
 lt:Omegasmall AB65 Ll
 dzdigraphretroflexhook AB66 Ll
 tsdigraphretroflexhook AB67 Ll
+rmiddletildeturned AB68 Ll
+wturnedmod AB69 Lm
+LETTERLEFTTACKmod AB6A Sk
+LETTERRIGHTTACKmod AB6B Sk
 # Cherokee Supplement
 chrk:asmall AB70 Ll
 chrk:esmall AB71 Ll
@@ -8825,6 +8909,7 @@ symboltwodotsverticallybelow FBBE Sk
 symbolring FBBF Sk
 symboltahabovesmall FBC0 Sk
 symboltahbelowsmall FBC1 Sk
+symbolabovewasla FBC2 Sk
 ng.isol FBD3 Lo
 ng.fina FBD4 Lo
 ng.init FBD5 Lo
@@ -9190,6 +9275,22 @@ alef.medi_fathatan.fina FD3C Lo
 alef.init_fathatan.fina FD3D Lo
 ornateleftparenthesis FD3E Pe
 ornaterightparenthesis FD3F Ps
+RahimahuAllaah FD40 So
+RadiAllaahuAnh FD41 So
+RadiAllaahuAnhaa FD42 So
+RadiAllaahuAnhum FD43 So
+RadiAllaahuAnhumaa FD44 So
+RadiAllaahuAnhunna FD45 So
+SallallaahuAlayhiWaAalih FD46 So
+AlayhiAsSalaam FD47 So
+AlayhimAsSalaam FD48 So
+AlayhimaaAsSalaam FD49 So
+AlayhiAsSalaatuWasSalaam FD4A So
+QuddisaSirrah FD4B So
+SallallahuAlayhiWaaaliheeWaSallam FD4C So
+AlayhaaAsSalaam FD4D So
+TabaarakaWaTaaalaa FD4E So
+RahimahumAllaah FD4F So
 teh.init_jeem.medi_meem.medi FD50 Lo
 teh.medi_hah.medi_jeem.fina FD51 Lo
 teh.init_hah.medi_jeem.medi FD52 Lo
@@ -9308,6 +9409,7 @@ ain.init_jeem.medi_meem.medi FDC4 Lo
 sad.init_meem.medi_meem.medi FDC5 Lo
 seen.medi_khah.medi_yeh.fina FDC6 Lo
 noon.medi_jeem.medi_yeh.fina FDC7 Lo
+SalaamuhuAlaynaa FDCF So
 SallaUsedAsKoranicStopSign FDF0 Lo
 QalaUsedAsKoranicStopSign FDF1 Lo
 Allah FDF2 Lo
@@ -9322,6 +9424,8 @@ SallallahouAlayheWasallam FDFA Lo
 Jallajalalouhou FDFB Lo
 rial FDFC Sc
 BismillahArRahmanArRaheem FDFD So
+SubhaanahuWaTaaalaa FDFE So
+AzzaWaJall FDFF So
 # Vertical Forms
 vert:comma FE10 Po
 vert:ideographiccomma FE11 Po
@@ -11035,6 +11139,9 @@ eightcomma 1F109 No
 ninecomma 1F10A No
 dingbatSAns-serifzerocircle 1F10B No
 dingbatSAns-serifzerocircleblack 1F10C No
+zerowithslashcircle 1F10D So
+anticlockwisearrowcircle 1F10E So
+dollarsignwithoverlaidbackslashcircle 1F10F So
 Aparens 1F110 So
 Bparens 1F111 So
 Cparens 1F112 So
@@ -11128,6 +11235,9 @@ Zcircleblack 1F169 So
 raisedmcsign 1F16A So
 raisedmdsign 1F16B So
 raisedmrsign 1F16C So
+cccircle 1F16D So
+cwithoverlaidbackslashcircle 1F16E So
+humanfigurecircle 1F16F So
 Asquareblack 1F170 So
 Bsquareblack 1F171 So
 Csquareblack 1F172 So
@@ -11189,6 +11299,7 @@ losslesssquare 1F1A9 So
 shvsquare 1F1AA So
 uhdsquare 1F1AB So
 vodsquare 1F1AC So
+maskworksymbol 1F1AD So
 regionalindicatorsymbollettera 1F1E6 So
 regionalindicatorsymbolletterb 1F1E7 So
 regionalindicatorsymbolletterc 1F1E8 So
@@ -12152,6 +12263,12 @@ shoppingTrolley 1F6D2 So
 stupa 1F6D3 So
 pagoda 1F6D4 So
 hinduTemple 1F6D5 So
+hut 1F6D6 So
+elevator 1F6D7 So
+wireless 1F6DC So
+playgroundSlide 1F6DD So
+wheel 1F6DE So
+ringBuoy 1F6DF So
 hammerAndWrench 1F6E0 So
 shield 1F6E1 So
 oilDrum 1F6E2 So
@@ -12176,3 +12293,5 @@ sled 1F6F7 So
 flyingSaucer 1F6F8 So
 skateboard 1F6F9 So
 autoRickshaw 1F6FA So
+pickupTruck 1F6FB So
+rollerSkate 1F6FC So

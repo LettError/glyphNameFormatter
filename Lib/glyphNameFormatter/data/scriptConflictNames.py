@@ -35,6 +35,7 @@ scriptConflictNames = [
     "glottalstop",
     "grave",
     "gscript",
+    "hook",
     "hyphen",
     "i",
     "iota",
