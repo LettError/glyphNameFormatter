@@ -5,7 +5,7 @@
 # C Join_Causing
 # U Non_Joining
 # T Transparent
-# Generated on 2019 07 18 09:45:12
+# Generated on 2023 10 27 09:47:02
 # Source: # ArabicShaping-12.1.0.txt
 # <unicode> <joiningtype>
 00600	U

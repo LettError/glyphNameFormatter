@@ -1,5 +1,5 @@
 # List of unicodes that had different names in earlier GNUFL releases.
-# Generated on 2022 03 21 16:07:11
+# Generated on 2023 10 27 09:47:30
 # Compiled from these hashes:
 # 247cf45b82156c0be385a731e00b6b3a6460283d
 # 5be19929d57db84f024165aeaae7c2d8e13e3bc3
@@ -85,6 +85,8 @@
 # bc60c387357f5f7c4d877866839ab921275aa2bd
 # 6feb2004e3783491200e3d1853e1c9c694031976
 # 79ed588d95d99018bc1c642f7d538d03f6e2de05
+# abb3cdb0fc8c3ee7863382d2a8f8b1b5029ac653
+# ad3f0a0574542a99353ca4c0816895cb334a6b6e
 # <unicode> <historic name>
 b2 two.superior twosuperior
 b3 three.superior threesuperior
