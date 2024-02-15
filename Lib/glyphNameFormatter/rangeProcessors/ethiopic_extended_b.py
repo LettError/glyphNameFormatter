@@ -2,6 +2,7 @@ def process(self):
     self.edit("ETHIOPIC")
     self.edit("SYLLABLE")
     self.edit("TONAL")
+    self.edit("GURAGE", "gurage")
     self.editToFinal("MARK", "mark")
     self.lower()
     self.compress()

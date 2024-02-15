@@ -1,6 +1,7 @@
 def process(self):
     self.edit("ETHIOPIC")
     self.edit("SYLLABLE")
+    self.edit("GLOTTAL", "glottal")
     self.edit("TONAL")
     self.editToFinal("MARK", "mark")
     self.lower()
