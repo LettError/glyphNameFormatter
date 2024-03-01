@@ -4,6 +4,7 @@ def process(self):
     self.edit("TONAL")
     self.edit("MARK")
     self.editToFinal("SEBATBEIT", "sebatbeit")
+    self.edit("-")
     self.lower()
     self.compress()
     self.scriptPrefix()
