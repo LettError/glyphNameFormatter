@@ -16,6 +16,9 @@
    26A : Ismall                                            -                        Ismall                                  IPA Extensions                          LATIN LETTER SMALL CAPITAL I
   A7AE : Ismall                                            -                        Ismall                                  Latin Extended-D                        LATIN CAPITAL LETTER SMALL CAPITAL I
 
+   39B : Lambda                                            -                        Lambda                                  Greek and Coptic                        GREEK CAPITAL LETTER LAMDA
+  A7DA : Lambda                                            -                        Lambda                                  Latin Extended-D                        LATIN CAPITAL LETTER LAMBDA
+
    3A9 : Omega                                             -                        Omega                                   Greek and Coptic                        GREEK CAPITAL LETTER OMEGA
   A7B6 : Omega                                             -                        Omega                                   Latin Extended-D                        LATIN CAPITAL LETTER OMEGA
 
@@ -608,6 +611,9 @@
    153 : oe                                                -                        oe                                      Latin Extended-A                        LATIN SMALL LIGATURE OE
    6C6 : oe                                                -                        oe                                      Arabic                                  ARABIC LETTER OE    
 
+   3C9 : omega                                             -                        omega                                   Greek and Coptic                        GREEK SMALL LETTER OMEGA
+  A7B7 : omega                                             -                        omega                                   Latin Extended-D                        LATIN SMALL LETTER OMEGA
+
     31 : one                                               -                        one                                     Basic Latin                             DIGIT ONE           
    661 : one                                               -                        one                                     Arabic                                  ARABIC-INDIC DIGIT ONE
   A9D1 : one                                               -                        one                                     Javanese                                JAVANESE DIGIT ONE  
@@ -617,6 +623,9 @@
 
    60A : perthousand                                       -                        perthousand                             Arabic                                  ARABIC-INDIC PER TEN THOUSAND SIGN
   2030 : perthousand                                       -                        perthousand                             General Punctuation                     PER MILLE SIGN      
+
+   278 : phi                                               -                        phi                                     IPA Extensions                          LATIN SMALL LETTER PHI
+   3C6 : phi                                               -                        phi                                     Greek and Coptic                        GREEK SMALL LETTER PHI
 
     3F : question                                          -                        question                                Basic Latin                             QUESTION MARK       
    37E : question                                          -                        question                                Greek and Coptic                        GREEK QUESTION MARK 
@@ -661,13 +670,16 @@
    6C7 : u                                                 -                        u                                       Arabic                                  ARABIC LETTER U     
   A988 : u                                                 -                        u                                       Javanese                                JAVANESE LETTER U   
 
+   28A : upsilon                                           -                        upsilon                                 IPA Extensions                          LATIN SMALL LETTER UPSILON
+   3C5 : upsilon                                           -                        upsilon                                 Greek and Coptic                        GREEK SMALL LETTER UPSILON
+
    6C8 : yu                                                -                        yu                                      Arabic                                  ARABIC LETTER YU    
   2C53 : yu                                                -                        yu                                      Glagolitic                              GLAGOLITIC SMALL LETTER YU
 
     30 : zero                                              -                        zero                                    Basic Latin                             DIGIT ZERO          
    660 : zero                                              -                        zero                                    Arabic                                  ARABIC-INDIC DIGIT ZERO
   A9D0 : zero                                              -                        zero                                    Javanese                                JAVANESE DIGIT ZERO 
-# 64 names with conflicts, affecting 603 unicodes
+# 68 names with conflicts, affecting 611 unicodes
 
 
 Conflicts by rangename
@@ -749,13 +761,17 @@ Greek Extended
 Greek and Coptic
    392 : Beta                                              -                        Beta                                    Greek and Coptic                        GREEK CAPITAL LETTER BETA
    3A7 : Chi                                               -                        Chi                                     Greek and Coptic                        GREEK CAPITAL LETTER CHI
+   39B : Lambda                                            -                        Lambda                                  Greek and Coptic                        GREEK CAPITAL LETTER LAMDA
    3A9 : Omega                                             -                        Omega                                   Greek and Coptic                        GREEK CAPITAL LETTER OMEGA
    3B1 : alpha                                             -                        alpha                                   Greek and Coptic                        GREEK SMALL LETTER ALPHA
    3B2 : beta                                              -                        beta                                    Greek and Coptic                        GREEK SMALL LETTER BETA
    3B3 : gamma                                             -                        gamma                                   Greek and Coptic                        GREEK SMALL LETTER GAMMA
    3B9 : iota                                              -                        iota                                    Greek and Coptic                        GREEK SMALL LETTER IOTA
    3BB : lambda                                            -                        lambda                                  Greek and Coptic                        GREEK SMALL LETTER LAMDA
+   3C9 : omega                                             -                        omega                                   Greek and Coptic                        GREEK SMALL LETTER OMEGA
+   3C6 : phi                                               -                        phi                                     Greek and Coptic                        GREEK SMALL LETTER PHI
    37E : question                                          -                        question                                Greek and Coptic                        GREEK QUESTION MARK 
+   3C5 : upsilon                                           -                        upsilon                                 Greek and Coptic                        GREEK SMALL LETTER UPSILON
 
 IPA Extensions
    26A : Ismall                                            -                        Ismall                                  IPA Extensions                          LATIN LETTER SMALL CAPITAL I
@@ -765,7 +781,9 @@ IPA Extensions
    294 : glottalstop                                       -                        glottalstop                             IPA Extensions                          LATIN LETTER GLOTTAL STOP
    261 : gscript                                           -                        gscript                                 IPA Extensions                          LATIN SMALL LETTER SCRIPT G
    269 : iota                                              -                        iota                                    IPA Extensions                          LATIN SMALL LETTER IOTA
+   278 : phi                                               -                        phi                                     IPA Extensions                          LATIN SMALL LETTER PHI
    27D : rtail                                             -                        rtail                                   IPA Extensions                          LATIN SMALL LETTER R WITH TAIL
+   28A : upsilon                                           -                        upsilon                                 IPA Extensions                          LATIN SMALL LETTER UPSILON
 
 Javanese
   A984 : a                                                 -                        a                                       Javanese                                JAVANESE LETTER A   
@@ -1268,9 +1286,11 @@ Latin Extended-D
   A7B4 : Beta                                              -                        Beta                                    Latin Extended-D                        LATIN CAPITAL LETTER BETA
   A7B3 : Chi                                               -                        Chi                                     Latin Extended-D                        LATIN CAPITAL LETTER CHI
   A7AE : Ismall                                            -                        Ismall                                  Latin Extended-D                        LATIN CAPITAL LETTER SMALL CAPITAL I
+  A7DA : Lambda                                            -                        Lambda                                  Latin Extended-D                        LATIN CAPITAL LETTER LAMBDA
   A7B6 : Omega                                             -                        Omega                                   Latin Extended-D                        LATIN CAPITAL LETTER OMEGA
   A7B5 : beta                                              -                        beta                                    Latin Extended-D                        LATIN SMALL LETTER BETA
   A7DB : lambda                                            -                        lambda                                  Latin Extended-D                        LATIN SMALL LETTER LAMBDA
+  A7B7 : omega                                             -                        omega                                   Latin Extended-D                        LATIN SMALL LETTER OMEGA
 
 Latin Extended-E
   AB4B : rscript                                           -                        rscript                                 Latin Extended-E                        LATIN SMALL LETTER SCRIPT R

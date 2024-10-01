@@ -6,7 +6,6 @@
 # does everything lowercase.
 
 def process(self):
-    self.setExperimental()
 
     self.edit("COMBINING")
     self.edit("OPEN")

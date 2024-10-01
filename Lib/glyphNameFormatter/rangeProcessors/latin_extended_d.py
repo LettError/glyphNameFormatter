@@ -19,7 +19,6 @@ def process(self):
 
     ]
     if self.uniNumber in latinGreeks:
-        self.forceLatinScriptTag = True
         self.scriptTag = scriptPrefixes['latingreek']
 
     self.edit("MODIFIER", "mod")

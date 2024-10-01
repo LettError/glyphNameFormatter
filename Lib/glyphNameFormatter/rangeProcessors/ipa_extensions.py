@@ -20,7 +20,6 @@ def process(self):
         0x0251, #   LATIN SMALL LETTER ALPHA
     ]
     if self.uniNumber in latinGreeks:
-        self.forceLatinScriptTag = True
         self.scriptTag = scriptPrefixes['latingreek']
 
     self.edit("LATIN")
