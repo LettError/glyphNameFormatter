@@ -11,8 +11,8 @@ unicodePlaneNames = {
     (0x10000,   0x1FFFF): (u"Supplementary Multilingual Plane", ),
     (0x20000,   0x2FFFF): (u"Supplementary Ideographic Plane"),
     (0x30000,   0xDFFFF): (u"Plane 3 - 13, unassigned", ),
-    (0xE0000,   0xEFFFF): (u"Supplement­ary Special-purpose Plane", ),
-    (0xF0000,   0x10FFFF): (u"Supplement­ary Private Use Area", ),
+    (0xE0000,   0xEFFFF): (u"Supplementary Special-purpose Plane", ),
+    (0xF0000,   0x10FFFF): (u"Supplementary Private Use Area", ),
 }
 
 
@@ -21,7 +21,6 @@ def getRangeName(value):
         if a <= value <= b:
             return unicodeRangeNames[(a, b)]
     return None
-
 
 def getRangeAndName(value):
     for a, b in unicodeRangeNames.keys():
@@ -108,3 +107,9 @@ if __name__ == "__main__":
     names = getSupportedRangeNames()
     names.sort()
     print("\n".join(names))
+
+    #print(rangeNameToModuleName("Supplemental Arrows-B"))
+    #print(rangeNameToModuleName("Miscellaneous Mathematical Symbols-B"))
+    #print(rangeNameToModuleName("Supplemental Mathematical Operators"))
+    #print(rangeNameToModuleName("Miscellaneous Symbols and Arrows"))
+    

@@ -12,7 +12,6 @@ def process(self):
     self.edit("GRAVE-ACUTE-GRAVE", "graveacutegrave")
     self.edit("ACUTE-GRAVE-ACUTE", "acutegraveacute")
 
-    #self.editToFinal("COMBINING", "cmb")
     self.edit("COMBINING")
     self.edit("OPEN")
     self.edit("ACCENT")
