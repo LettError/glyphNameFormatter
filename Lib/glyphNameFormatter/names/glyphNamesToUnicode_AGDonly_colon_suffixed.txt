@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.7 - git commit: 499
-# Unicode version: Unicode 15.0.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/ad3f0a0
-# Generated on 2023 10 27 09:48:12
+# GlyphNameFormatter version 0.7 - git commit: 503
+# Unicode version: Unicode 16.0.0
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/35779b5
+# Generated on 2024 10 01 15:01:32
 # <glyphName> <hex unicode>
 # Separator ":"
 # Prefixed "False"
@@ -540,7 +540,7 @@ Ystroke 024E
 ystroke 024F
 # IPA Extensions
 aturned 0250
-alpha:ipa 0251
+alpha:ltgr 0251
 alphaturned 0252
 bhook 0253
 oopen 0254
@@ -558,13 +558,13 @@ dotlessjstroke 025F
 ghook 0260
 gscript:ipa 0261
 Gsmall 0262
-gamma:ipa 0263
+gamma:ltgr 0263
 ramshorn 0264
 hturned 0265
 hhook 0266
 henghook 0267
 istroke 0268
-iota:ipa 0269
+iota:ltgr 0269
 Ismall:ipa 026A
 lmiddletilde 026B
 lbelt 026C
@@ -579,7 +579,7 @@ Nsmall 0274
 obarred 0275
 OEsmall 0276
 omegaclosed 0277
-phi:ipa 0278
+phi:ltgr 0278
 rturned 0279
 rlonglegturned 027A
 rhookturned 027B
@@ -865,7 +865,7 @@ Eta 0397
 Theta 0398
 Iota 0399
 Kappa 039A
-Lambda 039B
+Lambda:gr 039B
 Mu 039C
 Nu 039D
 Xi 039E
@@ -896,7 +896,7 @@ eta 03B7
 theta 03B8
 iota 03B9
 kappa 03BA
-lambda 03BB
+lambda:gr 03BB
 mu 03BC
 nu 03BD
 xi 03BE
@@ -1693,16 +1693,16 @@ filledstopabove 06EC
 meembelow 06ED
 dalinvertedV 06EE
 rehinvertedV 06EF
-arzero 06F0
-arone 06F1
-artwo 06F2
-arthree 06F3
-arfour 06F4
-arfive 06F5
-arsix 06F6
-arseven 06F7
-areight 06F8
-arnine 06F9
+arzeroxt 06F0
+aronext 06F1
+artwoxt 06F2
+arthreext 06F3
+arfourxt 06F4
+arfivext 06F5
+arsixxt 06F6
+arsevenxt 06F7
+areightxt 06F8
+arninext 06F9
 sheendotbelow 06FA
 daddotbelow 06FB
 ghaindotbelow 06FC
@@ -3731,6 +3731,33 @@ eighty:ethi 1379
 ninety:ethi 137A
 hundred:ethi 137B
 tenthousand:ethi 137C
+# Ethiopic Supplement
+mwasebatbeit:ethi 1380
+mwi:ethi 1381
+mwee:ethi 1382
+mwe:ethi 1383
+bwasebatbeit:ethi 1384
+bwi:ethi 1385
+bwee:ethi 1386
+bwe:ethi 1387
+fwasebatbeit:ethi 1388
+fwi:ethi 1389
+fwee:ethi 138A
+fwe:ethi 138B
+pwasebatbeit:ethi 138C
+pwi:ethi 138D
+pwee:ethi 138E
+pwe:ethi 138F
+yizet:ethi 1390
+deret:ethi 1391
+rikrik:ethi 1392
+shortrikrik:ethi 1393
+difat:ethi 1394
+kenat:ethi 1395
+chiret:ethi 1396
+hidet:ethi 1397
+derethidet:ethi 1398
+kurt:ethi 1399
 # Cherokee
 a:cher 13A0
 e:cher 13A1
@@ -5913,8 +5940,11 @@ openbox:cntr 2423
 newline:cntr 2424
 deleteformtwo:cntr 2425
 substituteformtwo:cntr 2426
+deletesquarecheckerboardform:cntr 2427
+deleterectangularcheckerboardform:cntr 2428
+deletemediumshadeform:cntr 2429
 # Optical Character Recognition
-hook 2440
+hook:ocr 2440
 chair:ocr 2441
 fork 2442
 invertedfork 2443
@@ -7101,6 +7131,10 @@ dots345678 28FC
 dots1345678 28FD
 dots2345678 28FE
 dots12345678 28FF
+# Supplemental Arrows-B
+# Miscellaneous Mathematical Symbols-B
+# Supplemental Mathematical Operators
+# Miscellaneous Symbols and Arrows
 # Glagolitic
 Azu 2C00
 Buky 2C01
@@ -7272,6 +7306,86 @@ harGeok 2D24
 hoeGeok 2D25
 ynGeok 2D27
 aenGeok 2D2D
+# Ethiopic Extended
+loa:ethi 2D80
+moa:ethi 2D81
+roa:ethi 2D82
+soa:ethi 2D83
+shoa:ethi 2D84
+boa:ethi 2D85
+toa:ethi 2D86
+coa:ethi 2D87
+noa:ethi 2D88
+nyoa:ethi 2D89
+oaglottal:ethi 2D8A
+zoa:ethi 2D8B
+doa:ethi 2D8C
+ddoa:ethi 2D8D
+joa:ethi 2D8E
+thoa:ethi 2D8F
+choa:ethi 2D90
+phoa:ethi 2D91
+poa:ethi 2D92
+ggwa:ethi 2D93
+ggwi:ethi 2D94
+ggwee:ethi 2D95
+ggwe:ethi 2D96
+ssa:ethi 2DA0
+ssu:ethi 2DA1
+ssi:ethi 2DA2
+ssaa:ethi 2DA3
+ssee:ethi 2DA4
+sse:ethi 2DA5
+sso:ethi 2DA6
+cca:ethi 2DA8
+ccu:ethi 2DA9
+cci:ethi 2DAA
+ccaa:ethi 2DAB
+ccee:ethi 2DAC
+cce:ethi 2DAD
+cco:ethi 2DAE
+zza:ethi 2DB0
+zzu:ethi 2DB1
+zzi:ethi 2DB2
+zzaa:ethi 2DB3
+zzee:ethi 2DB4
+zze:ethi 2DB5
+zzo:ethi 2DB6
+ccha:ethi 2DB8
+cchu:ethi 2DB9
+cchi:ethi 2DBA
+cchaa:ethi 2DBB
+cchee:ethi 2DBC
+cche:ethi 2DBD
+ccho:ethi 2DBE
+qya:ethi 2DC0
+qyu:ethi 2DC1
+qyi:ethi 2DC2
+qyaa:ethi 2DC3
+qyee:ethi 2DC4
+qye:ethi 2DC5
+qyo:ethi 2DC6
+kya:ethi 2DC8
+kyu:ethi 2DC9
+kyi:ethi 2DCA
+kyaa:ethi 2DCB
+kyee:ethi 2DCC
+kye:ethi 2DCD
+kyo:ethi 2DCE
+xya:ethi 2DD0
+xyu:ethi 2DD1
+xyi:ethi 2DD2
+xyaa:ethi 2DD3
+xyee:ethi 2DD4
+xye:ethi 2DD5
+xyo:ethi 2DD6
+gya:ethi 2DD8
+gyu:ethi 2DD9
+gyi:ethi 2DDA
+gyaa:ethi 2DDB
+gyee:ethi 2DDC
+gye:ethi 2DDD
+gyo:ethi 2DDE
 # Supplemental Punctuation
 anglemarkersubstitutionright 2E00
 anglemarkerdottedsubstitutionright 2E01
@@ -8423,11 +8537,11 @@ Qsmall A7AF
 Kturned A7B0
 Tturned A7B1
 Jcrossed-tail A7B2
-Chi:lt A7B3
-Beta:lt A7B4
-beta:lt A7B5
-Omega:lt A7B6
-omega:lt A7B7
+Chi:ltgr A7B3
+Beta:ltgr A7B4
+beta:ltgr A7B5
+Omega:ltgr A7B6
+omega:ltgr A7B7
 Ustroke A7B8
 ustroke A7B9
 Glottala A7BA
@@ -8447,6 +8561,9 @@ Dshortstroke A7C7
 dshortstroke A7C8
 Sshortstroke A7C9
 sshortstroke A7CA
+Ramshorn A7CB
+Sdiagonalstroke A7CC
+sdiagonalstroke A7CD
 Ginsularclosed A7D0
 ginsularclosed A7D1
 doublethorn A7D3
@@ -8455,6 +8572,9 @@ Middlescotss A7D6
 middlescotss A7D7
 Sigmoids A7D8
 sigmoids A7D9
+Lambda:ltgr A7DA
+lambda:ltgr A7DB
+Lambdastroke A7DC
 Cmod A7F2
 Fmod A7F3
 Qmod A7F4
@@ -8561,6 +8681,39 @@ eight:java A9D8
 nine:java A9D9
 tirtatumetespada A9DE
 isen-isenpada A9DF
+# Ethiopic Extended-A
+tthu:ethi AB01
+tthi:ethi AB02
+tthaa:ethi AB03
+tthee:ethi AB04
+tthe:ethi AB05
+ttho:ethi AB06
+ddhu:ethi AB09
+ddhi:ethi AB0A
+ddhaa:ethi AB0B
+ddhee:ethi AB0C
+ddhe:ethi AB0D
+ddho:ethi AB0E
+dzu:ethi AB11
+dzi:ethi AB12
+dzaa:ethi AB13
+dzee:ethi AB14
+dze:ethi AB15
+dzo:ethi AB16
+cchha:ethi AB20
+cchhu:ethi AB21
+cchhi:ethi AB22
+cchhaa:ethi AB23
+cchhee:ethi AB24
+cchhe:ethi AB25
+cchho:ethi AB26
+bba:ethi AB28
+bbu:ethi AB29
+bbi:ethi AB2A
+bbaa:ethi AB2B
+bbee:ethi AB2C
+bbe:ethi AB2D
+bbo:ethi AB2E
 # Latin Extended-E
 redalphabar AB30
 areversedschwa AB31
@@ -8615,13 +8768,13 @@ iotifiede AB61
 oeopen AB62
 uo AB63
 alphainverted AB64
-Omega:ltsmall AB65
+Omega:ltgrsmall AB65
 dzdigraphretroflexhook AB66
 tsdigraphretroflexhook AB67
 rmiddletildeturned AB68
 wturnedmod AB69
-LETTERLEFTTACKmod AB6A
-LETTERRIGHTTACKmod AB6B
+modLetterLeftTack AB6A
+modLetterRightTack AB6B
 # Cherokee Supplement
 asmall:chrk AB70
 esmall:chrk AB71
@@ -10910,6 +11063,35 @@ sixmono 1D7FC
 sevenmono 1D7FD
 eightmono 1D7FE
 ninemono 1D7FF
+# Ethiopic Extended-B
+hhya:ethi 1E7E0
+hhyu:ethi 1E7E1
+hhyi:ethi 1E7E2
+hhyaa:ethi 1E7E3
+hhyee:ethi 1E7E4
+hhye:ethi 1E7E5
+hhyo:ethi 1E7E6
+hhwagurage:ethi 1E7E8
+hhwi:ethi 1E7E9
+hhwee:ethi 1E7EA
+hhwe:ethi 1E7EB
+mwigurage:ethi 1E7ED
+mweegurage:ethi 1E7EE
+qwigurage:ethi 1E7F0
+qweegurage:ethi 1E7F1
+qwegurage:ethi 1E7F2
+bwigurage:ethi 1E7F3
+bweegurage:ethi 1E7F4
+kwigurage:ethi 1E7F5
+kweegurage:ethi 1E7F6
+kwegurage:ethi 1E7F7
+gwigurage:ethi 1E7F8
+gweegurage:ethi 1E7F9
+gwegurage:ethi 1E7FA
+fwigurage:ethi 1E7FB
+fweegurage:ethi 1E7FC
+pwigurage:ethi 1E7FD
+pweegurage:ethi 1E7FE
 # Domino Tiles
 dominohorizontalback 1F030
 dominohorizontal_00_00 1F031

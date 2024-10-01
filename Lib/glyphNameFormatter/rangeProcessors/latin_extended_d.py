@@ -13,10 +13,14 @@ def process(self):
         0xA7B5, #   LATIN SMALL LETTER BETA
         0xA7B6, #   LATIN CAPITAL LETTER OMEGA
         0xA7B7, #   LATIN SMALL LETTER OMEGA
+        0xA7DA, #   LATIN CAPITAL LETTER LAMBDA
+        0xA7DB, #   LATIN SMALL LETTER LAMBDA
+        0xA7DC, #   LATIN CAPITAL LETTER LAMBDA WITH STROKE
+
     ]
     if self.uniNumber in latinGreeks:
         self.forceLatinScriptTag = True
-        self.scriptTag = scriptPrefixes['latin']
+        self.scriptTag = scriptPrefixes['latingreek']
 
     self.edit("MODIFIER", "mod")
     self.edit("REVERSED", "reversed")
