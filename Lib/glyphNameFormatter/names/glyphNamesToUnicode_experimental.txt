@@ -2,7 +2,7 @@
 # GlyphNameFormatter version 0.7 - git commit: 504
 # Unicode version: Unicode 16.0.0
 # Source code: https://github.com/LettError/glyphNameFormatter/tree/10be545
-# Generated on 2024 10 01 15:27:10
+# Generated on 2024 10 01 15:45:57
 # <glyphName> <hex unicode>
 #
 # Basic Latin
