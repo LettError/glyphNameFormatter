@@ -380,6 +380,6 @@ if __name__ == "__main__":
         """
 
     #doctest.testmod()
-    debug(0x0600)
-    g = GlyphName(uniNumber=0x0600)
+    debug(0x039B)
+    g = GlyphName(uniNumber=0x039B)
     print(g.getName(extension=True))

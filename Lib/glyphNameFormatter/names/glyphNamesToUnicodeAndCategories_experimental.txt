@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.7 - git commit: 504
+# GlyphNameFormatter version 0.7 - git commit: 506
 # Unicode version: Unicode 16.0.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/10be545
-# Generated on 2024 10 01 15:45:58
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/5821507
+# Generated on 2024 10 01 16:27:33
 # <glyphName> <hex unicode> <unicodeCategory>
 #
 # Basic Latin
@@ -863,7 +863,7 @@ Eta 0397 Lu
 Theta 0398 Lu
 Iota 0399 Lu
 Kappa 039A Lu
-gr:Lambda 039B Lu
+Lambda 039B Lu
 Mu 039C Lu
 Nu 039D Lu
 Xi 039E Lu
@@ -894,7 +894,7 @@ eta 03B7 Ll
 theta 03B8 Ll
 iota 03B9 Ll
 kappa 03BA Ll
-gr:lambda 03BB Ll
+lambda 03BB Ll
 mu 03BC Ll
 nu 03BD Ll
 xi 03BE Ll
