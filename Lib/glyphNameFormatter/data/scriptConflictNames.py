@@ -18,6 +18,7 @@ scriptConflictNames = [
     "beta",
     "bowtie",
     "chair",
+    "chi",
     "cjkcompatibilityideograph#",
     "cjkunifiedideograph#",
     "comma",

@@ -52,6 +52,9 @@
   2441 : chair                                             -                        chair                                   Optical Character Recognition           OCR CHAIR           
  1FA91 : chair                                             -                        chair                                   Symbols and Pictographs Extended-A      CHAIR               
 
+   3C7 : chi                                               -                        chi                                     Greek and Coptic                        GREEK SMALL LETTER CHI
+  AB53 : chi                                               -                        chi                                     Latin Extended-E                        LATIN SMALL LETTER CHI
+
 
 
     2C : comma                                             -                        comma                                   Basic Latin                             COMMA               
@@ -679,7 +682,7 @@
     30 : zero                                              -                        zero                                    Basic Latin                             DIGIT ZERO          
    660 : zero                                              -                        zero                                    Arabic                                  ARABIC-INDIC DIGIT ZERO
   A9D0 : zero                                              -                        zero                                    Javanese                                JAVANESE DIGIT ZERO 
-# 68 names with conflicts, affecting 611 unicodes
+# 69 names with conflicts, affecting 613 unicodes
 
 
 Conflicts by rangename
@@ -765,6 +768,7 @@ Greek and Coptic
    3A9 : Omega                                             -                        Omega                                   Greek and Coptic                        GREEK CAPITAL LETTER OMEGA
    3B1 : alpha                                             -                        alpha                                   Greek and Coptic                        GREEK SMALL LETTER ALPHA
    3B2 : beta                                              -                        beta                                    Greek and Coptic                        GREEK SMALL LETTER BETA
+   3C7 : chi                                               -                        chi                                     Greek and Coptic                        GREEK SMALL LETTER CHI
    3B3 : gamma                                             -                        gamma                                   Greek and Coptic                        GREEK SMALL LETTER GAMMA
    3B9 : iota                                              -                        iota                                    Greek and Coptic                        GREEK SMALL LETTER IOTA
    3BB : lambda                                            -                        lambda                                  Greek and Coptic                        GREEK SMALL LETTER LAMDA
@@ -1293,6 +1297,7 @@ Latin Extended-D
   A7B7 : omega                                             -                        omega                                   Latin Extended-D                        LATIN SMALL LETTER OMEGA
 
 Latin Extended-E
+  AB53 : chi                                               -                        chi                                     Latin Extended-E                        LATIN SMALL LETTER CHI
   AB4B : rscript                                           -                        rscript                                 Latin Extended-E                        LATIN SMALL LETTER SCRIPT R
   AB49 : rtail                                             -                        rtail                                   Latin Extended-E                        LATIN SMALL LETTER R WITH CROSSED-TAIL
 

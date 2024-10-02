@@ -2,23 +2,6 @@ from glyphNameFormatter.data.scriptPrefixes import scriptPrefixes
 
 
 def process(self):
-    #self.setDraft()
-
-
-    latinGreeks = [
-        # these need to be prefixed as latin. 
-        0xAB30, #   ꬰ    LATIN SMALL LETTER BARRED ALPHA
-        0xAB53, #   ꭓ    LATIN SMALL LETTER CHI
-        0xAB54, #   ꭔ    LATIN SMALL LETTER CHI WITH LOW RIGHT RING
-        0xAB55, #   ꭕ    LATIN SMALL LETTER CHI WITH LOW LEFT SERIF
-        0xAB64, #   ꭤ    LATIN SMALL LETTER INVERTED 
-        0xAB64, #   ꭤ    LATIN SMALL LETTER INVERTED ALPHA
-        0xAB65, #   ꭥ    GREEK LETTER SMALL CAPITAL OMEGA
-    ]
-    if self.uniNumber in latinGreeks:
-        #self.suffix("ltgr")
-        self.scriptTag = scriptPrefixes['latingreek']
-
 
     self.edit("MODIFIER LETTER LEFT TACK", "modLetterLeftTack")
     self.edit("MODIFIER LETTER RIGHT TACK", "modLetterRightTack")
@@ -34,7 +17,7 @@ def process(self):
         self.edit("LATIN SMALL LETTER CHI", 'chi')
         self.edit("WITH LOW RIGHT RING", 'lowrightring')
         self.edit("WITH LOW LEFT SERIF", 'lowleftserif')
-        self.forceScriptPrefix("latin")
+        self.scriptTag = scriptPrefixes['latingreek']
 
 
     self.processAs("Latin Extended-C")
@@ -43,8 +26,9 @@ def process(self):
 
     if self.has("GREEK"):
         self.edit("GREEK")
-        #self.forceScriptPrefix("greek")
-        self.forceScriptPrefix("latingreek")
+
+    self.processAs("Helper Latin Greeks")
+
 
     self.edit("-")
 

@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.7 - git commit: 506
+# GlyphNameFormatter version 0.7 - git commit: 507
 # Unicode version: Unicode 16.0.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/5821507
-# Generated on 2024 10 01 16:27:31
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/690f044
+# Generated on 2024 10 02 10:58:20
 # <glyphName> <hex unicode>
 #
 # Basic Latin
@@ -9546,9 +9546,9 @@ urightlegbarshort AB4F
 ui AB50
 uiturned AB51
 ulefthook AB52
-lt:chi AB53
-lt:chilowrightring AB54
-lt:chilowleftserif AB55
+ltgr:chi AB53
+chilowrightring AB54
+chilowleftserif AB55
 xlowrightring AB56
 xlongleftleg AB57
 xlongleftlegandlowrightring AB58
@@ -9564,7 +9564,7 @@ iotifiede AB61
 oeopen AB62
 uo AB63
 alphainverted AB64
-ltgr:Omegasmall AB65
+Omegasmall AB65
 dzdigraphretroflexhook AB66
 tsdigraphretroflexhook AB67
 rmiddletildeturned AB68

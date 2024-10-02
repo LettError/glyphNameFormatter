@@ -5,22 +5,7 @@ def process(self):
     self.edit("LATIN")
 
     self.replace("MODIFIER LETTER LOW CIRCUMFLEX ACCENT", "circumflexlow")
-
-    latinGreeks = [
-        # these need to be prefixed as latin. 
-        0xA7B3, #   LATIN CAPITAL LETTER CHI
-        0xA7B4, #   LATIN CAPITAL LETTER BETA
-        0xA7B5, #   LATIN SMALL LETTER BETA
-        0xA7B6, #   LATIN CAPITAL LETTER OMEGA
-        0xA7B7, #   LATIN SMALL LETTER OMEGA
-        0xA7DA, #   LATIN CAPITAL LETTER LAMBDA
-        0xA7DB, #   LATIN SMALL LETTER LAMBDA
-        0xA7DC, #   LATIN CAPITAL LETTER LAMBDA WITH STROKE
-
-    ]
-    if self.uniNumber in latinGreeks:
-        #self.suffix("ltgr")
-        self.scriptTag = scriptPrefixes['latingreek']
+    
 
     self.edit("MODIFIER", "mod")
     self.edit("REVERSED", "reversed")
@@ -64,6 +49,7 @@ def process(self):
     else:
         self.replace("CAPITAL")
 
+    self.processAs("Helper Latin Greeks")
 
 
 

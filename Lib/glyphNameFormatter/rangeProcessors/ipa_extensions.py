@@ -2,25 +2,6 @@ from glyphNameFormatter.data.scriptPrefixes import scriptPrefixes
 
 def process(self):
 
-    latinGreeks = [
-        # these need to be prefixed as latin. 
-        0xA7DA, #   LATIN CAPITAL LETTER LAMBDA
-        0xA7DB, #   LATIN SMALL LETTER LAMBDA
-        0xA7DC, #   LATIN CAPITAL LETTER LAMBDA WITH STROKE
-        0xA7DC, #   LATIN CAPITAL LETTER LAMBDA WITH STROKE
-        0xA7B3, #   LATIN CAPITAL LETTER CHI
-        0xA7B4, #   LATIN CAPITAL LETTER BETA
-        0xA7B5, #   LATIN SMALL LETTER BETA
-        0xA7B6, #   LATIN CAPITAL LETTER OMEGA
-        0xA7B7, #   LATIN SMALL LETTER OMEGA
-        0x0278, #   LATIN SMALL LETTER PHI
-        0x0277, #   LATIN SMALL LETTER CLOSED OMEGA
-        0x0269, #   LATIN SMALL LETTER IOTA
-        0x0263, #   LATIN SMALL LETTER GAMMA
-        0x0251, #   LATIN SMALL LETTER ALPHA
-    ]
-    if self.uniNumber in latinGreeks:
-        self.scriptTag = scriptPrefixes['latingreek']
 
     self.edit("LATIN")
     self.edit("OPEN", "open")
@@ -60,7 +41,9 @@ def process(self):
 
     self.handleCase()
     self.replace("LETTER")
+    self.processAs("Helper Latin Greeks")
     self.compress()
+
 
 if __name__ == "__main__":
     from glyphNameFormatter.exporters import printRange
