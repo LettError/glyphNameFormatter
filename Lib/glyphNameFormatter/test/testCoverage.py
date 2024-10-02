@@ -62,9 +62,6 @@ def testCoverage():
     text.append("## Version %s"%unicodeVersion)
     text.append("\n\n\n")
     text.append("### Note:\n")
-    text.append("This coverage page is has some issues.\n")
-    text.append(" * Most of the Unicode data is downloaded from Unicode.org. Only the bidirectional data still depends on the Python unicodedata module..")
-    text.append(" * Narrow build Python might also leave some names inaccessible.")
     text.append(" * Not all ranges need to count. Private Use ranges are ignored, perhaps others need to as well.")
     text.append("\n\n\n")
 

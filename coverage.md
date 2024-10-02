@@ -6,10 +6,6 @@
 
 ### Note:
 
-This coverage page is has some issues.
-
- * Most of the Unicode data is downloaded from Unicode.org. Only the bidirectional data still depends on the Python unicodedata module..
- * Narrow build Python might also leave some names inaccessible.
  * Not all ranges need to count. Private Use ranges are ignored, perhaps others need to as well.
 
 
