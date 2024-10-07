@@ -192,6 +192,13 @@ class GlyphName(object):
             # we don't want a script extension,
             # but we've been warned that it might be necessary
             # for disambiguation
+            if self.scriptTag == "ltgr":
+                result = addScriptPrefix(self.uniNameProcessed,
+                            self.scriptTag,
+                            scriptSeparator=self.scriptSeparator,
+                            scriptAsPrefix=self.scriptAsPrefix,
+                            )
+                return result
             if self.forceLatinScriptTag or (self.scriptTag != scriptPrefixes['latin'] and self.scriptTag != ""):
                 if self.mustAddScript and self.scriptTag:
                     return addScriptPrefix(self.uniNameProcessed,
@@ -380,6 +387,6 @@ if __name__ == "__main__":
         """
 
     #doctest.testmod()
-    debug(0x0600)
-    g = GlyphName(uniNumber=0x0600)
+    debug(0x039B)
+    g = GlyphName(uniNumber=0x039B)
     print(g.getName(extension=True))

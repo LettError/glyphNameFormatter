@@ -38,3 +38,6 @@
 2424	cntr:newline	SYMBOL FOR NEWLINE
 2425	cntr:deleteformtwo	SYMBOL FOR DELETE FORM TWO
 2426	cntr:substituteformtwo	SYMBOL FOR SUBSTITUTE FORM TWO
+2427	cntr:deletesquarecheckerboardform	SYMBOL FOR DELETE SQUARE CHECKER BOARD FORM
+2428	cntr:deleterectangularcheckerboardform	SYMBOL FOR DELETE RECTANGULAR CHECKER BOARD FORM
+2429	cntr:deletemediumshadeform	SYMBOL FOR DELETE MEDIUM SHADE FORM

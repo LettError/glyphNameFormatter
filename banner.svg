@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg height="451" version="1.1" width="1600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <path d="M0,0 l1600,0 l0,451 l-1600,0 Z M0,0" fill="rgb(255,127,51)" transform="matrix(1,0,0,-1,0,451)"/>
+<svg width="1600" height="451" viewBox="0 0 1600 451" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="M0,0 l1600,0 l0,451 l-1600,0 Z" fill="rgb(255,51,51)" transform="matrix(1,0,0,-1,0,451)"/>
  <text text-anchor="start" transform="matrix(1,0,0,1,10.0,7.0)">
   <tspan fill="rgb(255,255,255)" font-family="MicrogrammaCom-BoldExtended" font-size="188" x="0" y="133">
    GLYPHNAME
@@ -11,9 +11,9 @@
    FORMATTER
   </tspan>
  </text>
- <text text-anchor="start" transform="matrix(1,0,0,1,10.0,204.0)">
-  <tspan fill="rgb(102,76,102)" fill-opacity="0.3" font-family="MicrogrammaCom-BoldExtended" font-size="132" x="0" y="227">
-   unicode12
+ <text text-anchor="start" transform="matrix(1,0,0,1,10.0,304.0)">
+  <tspan fill="rgb(255,204,0)" fill-opacity="0.9" font-family="MicrogrammaCom-BoldExtended" font-size="192" x="0" y="127">
+   unicode16
   </tspan>
  </text>
 </svg>

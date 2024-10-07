@@ -1,3 +1,4 @@
+from glyphNameFormatter.data.scriptPrefixes import scriptPrefixes
 
 def process(self):
 
@@ -21,6 +22,8 @@ def process(self):
     for prefix in ["with ", "and ", ""]:
         for p in parts.keys():
             self.replace((prefix+p).lower(), parts[p])
+    self.scriptTag = scriptPrefixes['greek']
+
 
 if __name__ == "__main__":
     from glyphNameFormatter.exporters import printRange

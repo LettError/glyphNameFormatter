@@ -79,3 +79,17 @@
 2E4D	paragraphus	PARAGRAPHUS MARK
 2E4E	punctuselevatus	PUNCTUS ELEVATUS MARK
 2E4F	cornishversedivider	CORNISH VERSE DIVIDER
+2E50	crosspattywithcrossbarright	CROSS PATTY WITH RIGHT CROSSBAR
+2E51	crosspattywithcrossbarleft	CROSS PATTY WITH LEFT CROSSBAR
+2E52	tironiansigncapitalet	TIRONIAN SIGN CAPITAL ET
+2E53	medievalexclamation	MEDIEVAL EXCLAMATION MARK
+2E54	medievalquestion	MEDIEVAL QUESTION MARK
+2E55	squarebracketwithstrokeleft	LEFT SQUARE BRACKET WITH STROKE
+2E56	squarebracketwithstrokeright	RIGHT SQUARE BRACKET WITH STROKE
+2E57	squarebracketwithstrokedblleft	LEFT SQUARE BRACKET WITH DOUBLE STROKE
+2E58	squarebracketwithstrokedblright	RIGHT SQUARE BRACKET WITH DOUBLE STROKE
+2E59	parenhalftopleft	TOP HALF LEFT PARENTHESIS
+2E5A	parenhalftopright	TOP HALF RIGHT PARENTHESIS
+2E5B	parenhalfbottomleft	BOTTOM HALF LEFT PARENTHESIS
+2E5C	parenhalfbottomright	BOTTOM HALF RIGHT PARENTHESIS
+2E5D	hyphenoblique	OBLIQUE HYPHEN

@@ -8,27 +8,28 @@ def process(self):
     # but it is always possible to have one
     # edit outside its category just to make it work    self.edit("ARABIC LETTER HAMZA", 'hamza')
 
-    # edit the farsi numbers
+    # edit the EXTENDED ARABIC-INDIC numbers
+    # This is to acknowledge that these numbers also
+    # have Farsi names. But the use of these glyphs
+    # is not exclusive to Farsi. 
     # ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
-    farsiNumbers = {
-        0x06f0: ('zero', 'sefr'),
-        0x06f1: ('one', 'yek'),
-        0x06f2: ('two', 'do'),
-        0x06f3: ('three', 'seh'),
-        0x06f4: ('four', 'chahar'),
-        0x06f5: ('five', 'panj'),
-        0x06f6: ('six', 'shish'),
-        0x06f7: ('seven', 'haft'),
-        0x06f8: ('eight', 'hasht'),
-        0x06f9: ('nine', 'noh'),
+    extendedArabicIndic = {
+        0x06f0: 'perzero'   ,    #sefr',
+        0x06f1: 'perone'    ,    #yek',
+        0x06f2: 'pertwo'    ,    #do',
+        0x06f3: 'perthree'  ,    #seh',
+        0x06f4: 'perfour'   ,    #chahar',
+        0x06f5: 'perfive'   ,    #panj',
+        0x06f6: 'persix'    ,    #shish',
+        0x06f7: 'perseven'  ,    #haft',
+        0x06f8: 'pereight'  ,    #hasht',
+        0x06f9: 'pernine'   ,    #noh',
     }
 
-    if self.uniNumber in farsiNumbers:
-        self.edit("EXTENDED ARABIC-INDIC DIGIT", "")
-        self.scriptPrefix()
-        #a, b = farsiNumbers.get(self.uniNumber)
-        #self.lower()
-        #self.edit(a, b)
+    if self.uniNumber in extendedArabicIndic.keys():
+        # straight to uniNameProcessed, we want the "per" in front of the number
+        # and the self.edit() patterns aim to add things at the end. 
+        self.uniNameProcessed = extendedArabicIndic[self.uniNumber] 
 
     self.edit("ARABIC COMMA", "comma")        
     self.edit("ARABIC NUMBER SIGN", "numbersign")        
@@ -168,7 +169,7 @@ def process(self):
 if __name__ == "__main__":
     from glyphNameFormatter.exporters import printRange
     printRange("Arabic")
-    debug(0x060C)
+    debug(0x0639)
     # debug(0x066F)
     # debug(0x0697)
     # debug(0x069B)

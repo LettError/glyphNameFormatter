@@ -1,5 +1,5 @@
 # List of unicodes that had different names in earlier GNUFL releases.
-# Generated on 2023 10 27 09:47:30
+# Generated on 2024 10 01 16:13:47
 # Compiled from these hashes:
 # 247cf45b82156c0be385a731e00b6b3a6460283d
 # 5be19929d57db84f024165aeaae7c2d8e13e3bc3
@@ -87,6 +87,10 @@
 # 79ed588d95d99018bc1c642f7d538d03f6e2de05
 # abb3cdb0fc8c3ee7863382d2a8f8b1b5029ac653
 # ad3f0a0574542a99353ca4c0816895cb334a6b6e
+# 0d516011aed8e1e33a2fa9d5fa33a281e98b5c18
+# 10be5451d952b3ce2c6fa867174dc4f3fcd8d60b
+# ded05fc5e9bf026a28838d6b8920fdec6e74479a
+# 5821507d1e4a11abfa5dd018c3141fd0c39911c0
 # <unicode> <historic name>
 b2 two.superior twosuperior
 b3 three.superior threesuperior
@@ -118,14 +122,14 @@ b9 one.superior onesuperior
 211 rgravedbl rdblgrave
 214 Ugravedbl Udblgrave
 215 ugravedbl udblgrave
-251 ipa:alpha alpha ipa:alpha ipa-alpha
+251 ltgr:alpha ipa:alpha alpha ipa:alpha ipa-alpha
 258 ipa:ereversed ereversed ipa:ereversed ipa-ereversed ereversed
 259 schwa ipa:schwa schwa ipa:schwa ipa-schwa
 261 ipa:gscript gscript ipa:gscript ipa-gscript
-263 ipa:gamma gamma ipa:gamma ipa-gamma
-269 ipa:iota iota ipa:iota ipa-iota
+263 ltgr:gamma ipa:gamma gamma ipa:gamma ipa-gamma
+269 ltgr:iota ipa:iota iota ipa:iota ipa-iota
 26a ipa:Ismall Ismall ipa:Ismall Ismall
-278 ipa:phi phi ipa:phi ipa-phi
+278 ltgr:phi ipa:phi phi ipa:phi ipa-phi
 27d ipa:rtail rtail ipa:rtail ipa-rtail rtail
 283 esh ipa:esh esh ipa:esh esh
 28a ipa:upsilon upsilon ipa:upsilon ipa-upsilon
@@ -260,7 +264,7 @@ b9 one.superior onesuperior
 38f Omegatonos Omegawithtonos
 390 iotadieresistonos iotadieresisandtonos
 392 Beta gr-Beta Beta
-39b Lambda Lamda
+39b gr:Lambda Lambda Lamda
 3a7 Chi gr-Chi Chi
 3ac alphatonos alphawithtonos
 3ad epsilontonos epsilonwithtonos
@@ -269,7 +273,7 @@ b9 one.superior onesuperior
 3b0 upsilondieresistonos upsilondieresisandtonos
 3b2 beta gr-beta beta
 3b4 delta gr-delta
-3bb lambda lamda
+3bb gr:lambda lambda lamda
 3bc mu gr-mu mu gr-mu mu
 3bd nu gr-nu nu gr-nu nu
 3be xi gr-xi xi gr-xi xi
@@ -773,16 +777,16 @@ b9 one.superior onesuperior
 6db threedotsaboveabove threeaboveabove
 6e1 dotlesskhahabove khahdotlessabove
 6e2 meemabove meemabove.isol
-6f0 arzero sefr zerofar
-6f1 arone yek onefar
-6f2 artwo do twofar
-6f3 arthree seh threefar
-6f4 arfour chahar fourfar
-6f5 arfive panj fivefar
-6f6 arsix shish sixfar
-6f7 arseven haft sevenfar
-6f8 areight hasht eightfar
-6f9 arnine noh ninefar
+6f0 arzeroxt arzero sefr zerofar
+6f1 aronext arone yek onefar
+6f2 artwoxt artwo do twofar
+6f3 arthreext arthree seh threefar
+6f4 arfourxt arfour chahar fourfar
+6f5 arfivext arfive panj fivefar
+6f6 arsixxt arsix shish sixfar
+6f7 arsevenxt arseven haft sevenfar
+6f8 areightxt areight hasht eightfar
+6f9 arninext arnine noh ninefar
 750 behThreeDotsHorizontallyBelow BehThreeDotsHorizontallyBelow
 751 behDotBelowThreeDotsAbove behDotBelowAndThreeDotsAbove BehDotBelowAndThreeDotSAbove
 752 behThreeDotsUpBelow behThreeDotsPointingUpwardsBelow BehThreeDotsPointingUpwardsBelow
@@ -3320,6 +3324,7 @@ fda tibt:trailingmchanrtagsmark tibt-trailingmchanrtagsmark
 2424 cntr:newline cntr-newline newline
 2425 cntr:deleteformtwo cntr-deleteformtwo deleteformtwo
 2426 cntr:substituteformtwo cntr-substituteformtwo substituteformtwo
+2440 ocr:hook hook
 2441 ocr:chair chair
 2445 ocr:bowtie bowtie ocr:bowtie ocr-bowtie
 2448 ocr:dash dash ocr:dash dash ocr:dash dash
@@ -4066,11 +4071,11 @@ fda tibt:trailingmchanrtagsmark tibt-trailingmchanrtagsmark
 33d7 phfullwidth pHfullwidth phfullwidth
 33d9 ppmfullwidth PPMfullwidth ppmfullwidth
 33dc svfullwidth sVfullwidth svfullwidth
-a7b3 lt:Chi Chi lt:Chi Chi
-a7b4 lt:Beta Beta lt:Beta Beta
-a7b5 lt:beta beta lt:beta beta
-a7b6 lt:Omega Omega lt:Omega Omega
-a7b7 lt:omega omega lt:omega omega
+a7b3 ltgr:Chi lt:Chi Chi lt:Chi Chi
+a7b4 ltgr:Beta lt:Beta Beta lt:Beta Beta
+a7b5 ltgr:beta lt:beta beta lt:beta beta
+a7b6 ltgr:Omega lt:Omega Omega lt:Omega Omega
+a7b7 ltgr:omega lt:omega omega lt:omega omega
 a984 java:a a java:a java-a ja-a
 a986 java:i i java:i java-i ja-i
 a987 ii java:ii ii java:ii java-ii ja-ii
@@ -4111,7 +4116,9 @@ a9d9 java:nine nine java:nine java-nine ja-nine
 ab53 lt:chi chi
 ab54 lt:chilowrightring chilowrightring
 ab55 lt:chilowleftserif chilowleftserif
-ab65 lt:Omegasmall gr:Omegasmall Omegagreeksmall gr:Omegasmall
+ab65 ltgr:Omegasmall lt:Omegasmall gr:Omegasmall Omegagreeksmall gr:Omegasmall
+ab6a modLetterLeftTack LETTERLEFTTACKmod
+ab6b modLetterRightTack LETTERRIGHTTACKmod
 ab70 chrk:asmall chrk-asmall
 ab71 chrk:esmall chrk-esmall
 ab72 chrk:ismall chrk-ismall

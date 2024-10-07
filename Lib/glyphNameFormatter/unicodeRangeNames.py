@@ -106,10 +106,13 @@ def getSupportedRangeNames():
 if __name__ == "__main__":
     names = getSupportedRangeNames()
     names.sort()
-    print("\n".join(names))
+    #print("\n".join(names))
 
     #print(rangeNameToModuleName("Supplemental Arrows-B"))
     #print(rangeNameToModuleName("Miscellaneous Mathematical Symbols-B"))
     #print(rangeNameToModuleName("Supplemental Mathematical Operators"))
     #print(rangeNameToModuleName("Miscellaneous Symbols and Arrows"))
     
+    for name in getAllRangeNames():
+        if _findRangeNameProcessor(name) is None:
+            print('Needs support', name)

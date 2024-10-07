@@ -29,7 +29,12 @@ def process(self):
     self.replace("SMALL CAPITAL LETTER U", "Usmall")
     self.replace("SMALL CAPITAL LETTER I", "Ismall")
     self.replace("LETTER SMALL CAPITAL EL", "Elsmall")
-    self.replace("AIN", "ain")
+
+    if self.has("AIN"):
+        # this is a conflic with ARABIC LETTER AIN
+        # and we prefer to not have the prefix in arabic
+        self.replace("AIN", "ain")
+        self.scriptPrefix()
 
     self.replace("LETTER SMALL CAPITAL AE", "AEsmall")
     self.replace("LETTER SMALL CAPITAL OU", "OUsmall")

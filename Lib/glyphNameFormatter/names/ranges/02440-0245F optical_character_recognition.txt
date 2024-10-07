@@ -1,5 +1,5 @@
 # Optical Character Recognition 02440 - 0245F
-2440	hook	OCR HOOK
+2440	ocr:hook	OCR HOOK
 2441	ocr:chair	OCR CHAIR
 2442	fork	OCR FORK
 2443	invertedfork	OCR INVERTED FORK

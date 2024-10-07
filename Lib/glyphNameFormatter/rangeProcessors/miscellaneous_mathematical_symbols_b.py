@@ -1,6 +1,5 @@
 
 def process(self):
-    self.setExperimental()
     self.edit("-", " ")
     self.camelCase()
 

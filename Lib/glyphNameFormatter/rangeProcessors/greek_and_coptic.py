@@ -13,11 +13,13 @@ def process(self):
     # self.edit("YPOGEGRAMMENI", "iotalenissubscript")
     # self.edit("YPOGEGRAMMENI", "ypogegrammeni")
 
+    #self.replace("LETTER LAMDA", "Lambda")
+    self.replace("LAMDA", "Lambda")
+
     self.replace("LETTER DIGAMMA", "Digamma")
     self.replace("LETTER KOPPA", "Koppa")
     self.replace("LETTER STIGMA", "Stigma")
     self.replace("LETTER SAMPI", "Sampi")
-    self.replace("LETTER LAMDA", "Lambda")
     self.replace("LETTER YOT", "yot")
 
     self.edit("LOWER NUMERAL SIGN", "lownumeralsign")
@@ -61,29 +63,33 @@ def process(self):
     # dont use script tags when greek chars are in latin ranges,
     # the latin char will have automically the script tag prefix/suffix
     greekFirstUnicodes = [
-        0x03A9,  # Omega
-        0x03C9,  # omega
-        0x03A8,  # Psi
-        0x03C8,  # psi
-        0x03B1,  # alpha
-        0x03C7,  # chi
+        0x037A,  # iotasubscript
+        0x0392,  # Beta
         0x03A7,  # Chi
-        0x0927,  # delta
+        0x03A8,  # Psi
+        0x03A9,  # Omega
+        0x03B1,  # alpha
+        0x03B2,  # beta
         0x03B3,  # gamma
-        0x03DE,  # Koppa
-        0x03DF,  # koppa
-        0x03C6,  # phi
-        0x03C5,  # upsilon
         0x03B9,  # iota
+        0x039B,  # Lambda  
+        0x03BB,  # lambda  
         0x03BC,  # mu
         0x03BD,  # nu
-        0x03C0,  # pi
-        0x03F8,  # sho
         0x03BE,  # xi
-        0x03B2,  # beta
-        0x0392,  # Beta
-        0x037A,  # iotasubscript
-        ]
+        0x03C0,  # pi
+        0x03A5,  # Upsilon
+        0x03C5,  # upsilon
+        0x03C6,  # phi
+        0x03C7,  # chi
+        0x03C8,  # psi
+        0x03C9,  # omega
+        0x03DE,  # Koppa
+        0x03DF,  # koppa
+        0x03F8,  # sho
+        0x0927,  # delta
+
+]
 
     if self.uniNumber in greekFirstUnicodes:
         self.scriptTag = ""

@@ -10,7 +10,7 @@ try:
 except ImportError:
     from urllib.request import urlopen
 
-UNICODE_VERSION = "12.1.0"
+UNICODE_VERSION = "16.0.0"
 
 #parser = ArgumentParser(description=__doc__,
 #                        formatter_class=RawDescriptionHelpFormatter)

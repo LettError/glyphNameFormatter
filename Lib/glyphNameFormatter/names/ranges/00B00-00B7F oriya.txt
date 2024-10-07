@@ -62,6 +62,7 @@
 0B4B	orya:osign	ORIYA VOWEL SIGN O
 0B4C	orya:ausign	ORIYA VOWEL SIGN AU
 0B4D	orya:virama	ORIYA SIGN VIRAMA
+0B55	orya:signoverline	ORIYA SIGN OVERLINE
 0B56	orya:ailengthmark	ORIYA AI LENGTH MARK
 0B57	orya:aulengthmark	ORIYA AU LENGTH MARK
 0B5C	orya:rra	ORIYA LETTER RRA
