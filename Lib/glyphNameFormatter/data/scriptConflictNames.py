@@ -11,7 +11,6 @@ scriptConflictNames = [
     "a",
     "acute",
     "ae",
-    "ain",
     "alpha",
     "baby",
     "bell",

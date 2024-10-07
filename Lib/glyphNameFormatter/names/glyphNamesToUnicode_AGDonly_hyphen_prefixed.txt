@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.7 - git commit: 507
+# GlyphNameFormatter version 0.7 - git commit: 511
 # Unicode version: Unicode 16.0.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/690f044
-# Generated on 2024 10 02 10:58:22
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/284494b
+# Generated on 2024 10 07 17:20:01
 # <glyphName> <hex unicode>
 # Separator "-"
 # Prefixed "True"
@@ -1510,7 +1510,7 @@ sad 0635
 dad 0636
 tah 0637
 zah 0638
-arain 0639
+ain 0639
 ghain 063A
 kehehtwodotsabove 063B
 kehehthreedotsbelow 063C
@@ -1693,16 +1693,16 @@ filledstopabove 06EC
 meembelow 06ED
 dalinvertedV 06EE
 rehinvertedV 06EF
-arzeroxt 06F0
-aronext 06F1
-artwoxt 06F2
-arthreext 06F3
-arfourxt 06F4
-arfivext 06F5
-arsixxt 06F6
-arsevenxt 06F7
-areightxt 06F8
-arninext 06F9
+perzero 06F0
+perone 06F1
+pertwo 06F2
+perthree 06F3
+perfour 06F4
+perfive 06F5
+persix 06F6
+perseven 06F7
+pereight 06F8
+pernine 06F9
 sheendotbelow 06FA
 daddotbelow 06FB
 ghaindotbelow 06FC
@@ -4284,7 +4284,7 @@ umod 1D58
 usidewaysmod 1D59
 mturnedmod 1D5A
 vmod 1D5B
-ainmod 1D5C
+phon-ainmod 1D5C
 betamod 1D5D
 gr-gammamod 1D5E
 deltamod 1D5F

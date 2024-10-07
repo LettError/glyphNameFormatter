@@ -169,7 +169,7 @@ def process(self):
 if __name__ == "__main__":
     from glyphNameFormatter.exporters import printRange
     printRange("Arabic")
-    debug(0x060C)
+    debug(0x0639)
     # debug(0x066F)
     # debug(0x0697)
     # debug(0x069B)
