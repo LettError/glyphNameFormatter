@@ -14,21 +14,22 @@ def process(self):
     # is not exclusive to Farsi. 
     # ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     extendedArabicIndic = {
-        0x06f0: 'zero'   ,    #sefr',
-        0x06f1: 'one'    ,    #yek',
-        0x06f2: 'two'    ,    #do',
-        0x06f3: 'three'  ,    #seh',
-        0x06f4: 'four'   ,    #chahar',
-        0x06f5: 'five'   ,    #panj',
-        0x06f6: 'six'    ,    #shish',
-        0x06f7: 'seven'  ,    #haft',
-        0x06f8: 'eight'  ,    #hasht',
-        0x06f9: 'nine'   ,    #noh',
+        0x06f0: 'perzero'   ,    #sefr',
+        0x06f1: 'perone'    ,    #yek',
+        0x06f2: 'pertwo'    ,    #do',
+        0x06f3: 'perthree'  ,    #seh',
+        0x06f4: 'perfour'   ,    #chahar',
+        0x06f5: 'perfive'   ,    #panj',
+        0x06f6: 'persix'    ,    #shish',
+        0x06f7: 'perseven'  ,    #haft',
+        0x06f8: 'pereight'  ,    #hasht',
+        0x06f9: 'pernine'   ,    #noh',
     }
 
     if self.uniNumber in extendedArabicIndic.keys():
-        self.edit("EXTENDED", "xt")
-        self.scriptPrefix()
+        # straight to uniNameProcessed, we want the "per" in front of the number
+        # and the self.edit() patterns aim to add things at the end. 
+        self.uniNameProcessed = extendedArabicIndic[self.uniNumber] 
 
     self.edit("ARABIC COMMA", "comma")        
     self.edit("ARABIC NUMBER SIGN", "numbersign")        
