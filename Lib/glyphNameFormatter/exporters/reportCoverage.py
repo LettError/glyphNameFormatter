@@ -9,7 +9,7 @@ from pprint import pprint
 #   find which unicode ranges are needed to cover the AGD names
 #   so we can prioritize the support
 
-def testCoverage():
+def reportCoverage():
     uncountables = [
         'Hangul Syllables',
         'CJK Unified Ideographs',
@@ -103,4 +103,4 @@ def testCoverage():
 
 
 if __name__ == "__main__":
-    testCoverage()
+    reportCoverage()

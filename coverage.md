@@ -203,7 +203,7 @@
 | Caucasian Albanian | 52 | No | `10530` | `1056F` |
 | Vithkuqi | 70 | No | `10570` | `105BF` |
 | Linear A | 341 | No | `10600` | `1077F` |
-| Latin Extended-F | 57 | No | `10780` | `107BF` |
+| Latin Extended-F | **57** | **Yes** | `10780` | `107BF` |
 | Cypriot Syllabary | 54 | No | `10800` | `1083F` |
 | Imperial Aramaic | 30 | No | `10840` | `1085F` |
 | Palmyrene | 31 | No | `10860` | `1087F` |
@@ -316,7 +316,7 @@
 | Indic Siyaq Numbers | 68 | No | `1EC70` | `1ECBF` |
 | Ottoman Siyaq Numbers | 61 | No | `1ED00` | `1ED4F` |
 | Arabic Mathematical Alphabetic Symbols | 143 | No | `1EE00` | `1EEFF` |
-| Mahjong Tiles | 44 | No | `1F000` | `1F02F` |
+| Mahjong Tiles | **44** | **Yes** | `1F000` | `1F02F` |
 | Domino Tiles | **100** | **Yes** | `1F030` | `1F09F` |
 | Playing Cards | **82** | **Yes** | `1F0A0` | `1F0FF` |
 | Enclosed Alphanumeric Supplement | **199** | **Yes** | `1F100` | `1F1FF` |
@@ -326,10 +326,10 @@
 | Ornamental Dingbats | 47 | No | `1F650` | `1F67F` |
 | Transport and Map Symbols | **118** | **Yes** | `1F680` | `1F6FF` |
 | Alchemical Symbols | 123 | No | `1F700` | `1F77F` |
-| Geometric Shapes Extended | 103 | No | `1F780` | `1F7FF` |
-| Supplemental Arrows-C | 162 | No | `1F800` | `1F8FF` |
+| Geometric Shapes Extended | **103** | **Yes** | `1F780` | `1F7FF` |
+| Supplemental Arrows-C | **162** | **Yes** | `1F800` | `1F8FF` |
 | Supplemental Symbols and Pictographs | 255 | No | `1F900` | `1F9FF` |
-| Chess Symbols | 98 | No | `1FA00` | `1FA6F` |
+| Chess Symbols | **98** | **Yes** | `1FA00` | `1FA6F` |
 | Symbols and Pictographs Extended-A | 114 | No | `1FA70` | `1FAFF` |
 | Symbols for Legacy Computing | 249 | No | `1FB00` | `1FBFF` |
 | CJK Unified Ideographs Extension B | 42719 | No | `20000` | `2A6DF` |
