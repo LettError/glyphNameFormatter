@@ -111,6 +111,7 @@ _scriptPrefixes = {
     "Playing Cards": "cards",
     "Zanabazar Square": "zanb",
     "Thai": 'th',
+    "Soyombo": "soyo"
 }
 
 scriptPrefixes = ScriptPrefixesDict(_scriptPrefixes)

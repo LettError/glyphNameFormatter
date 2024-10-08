@@ -268,6 +268,7 @@ class GlyphName(object):
             self.lower()
             return
         casedParts = [a[0].upper()+a[1:].lower() for a in parts]
+        #print('casedParts', casedParts)
         self.uniNameProcessed = "".join(casedParts)
         self.uniNameProcessed = self.uniNameProcessed[0].lower() + self.uniNameProcessed[1:]
 

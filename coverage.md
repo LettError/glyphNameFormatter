@@ -260,7 +260,7 @@
 | Dives Akuru | 72 | No | `11900` | `1195F` |
 | Nandinagari | 65 | No | `119A0` | `119FF` |
 | Zanabazar Square | **72** | **Yes** | `11A00` | `11A4F` |
-| Soyombo | 83 | No | `11A50` | `11AAF` |
+| Soyombo | **83** | **Yes** | `11A50` | `11AAF` |
 | Unified Canadian Aboriginal Syllabics Extended-A | 15 | No | `11AB0` | `11ABF` |
 | Pau Cin Hau | 57 | No | `11AC0` | `11AFF` |
 | Devanagari Extended-A | 10 | No | `11B00` | `11B5F` |
