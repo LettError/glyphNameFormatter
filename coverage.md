@@ -1,4 +1,9 @@
 
+
+
+ * [Supported Ranges](https://github.com/LettError/glyphNameFormatter/blob/master/coverage.md)
+ * [Changes compared to RoboFont](https://github.com/LettError/glyphNameFormatter/blob/master/robofontUpdate.md)
+ * [GlyphnameFormatter on GitHub](https://github.com/LettError/glyphNameFormatter)
 ## Version Unicode 16.0.0
 
 

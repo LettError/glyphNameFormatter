@@ -1,8 +1,14 @@
-# Changes between this current list and the list embedded in RoboFont
+# Glyphnameformatter Changes in RoboFont
 
 
-Current list has 13603 names.
-Current RoboFont 4.5b build 2409181811 has 12167 names.
+ * [Supported Ranges](https://github.com/LettError/glyphNameFormatter/blob/master/coverage.md)
+ * [Changes compared to RoboFont](https://github.com/LettError/glyphNameFormatter/blob/master/robofontUpdate.md)
+ * [GlyphnameFormatter on GitHub](https://github.com/LettError/glyphNameFormatter)
+
+
+ * Current exported list has 13603 names.
+ * Current list in RoboFont 4.5b build 2409181811 has 12167 names.
+ * 1436 names added.
 
 
 ## Additions

@@ -8,14 +8,16 @@ codes = {}
 
 # these paths are very specific for Erik. 
 # Edit as you need. 
-
 uniPath = "/Users/erik/code/glyphNameFormatter/Lib/glyphNameFormatter/names/glyphNamesToUnicode.txt"
 rfPath = "/Applications/RoboFont_4.5b.app/Contents/Resources/glyphNamesToUnicode.txt"
 reportPath = "/Users/erik/code/glyphNameFormatter/robofontUpdate.md"
 
 text = []
-text.append("# Changes between this current list and the list embedded in RoboFont")
+text.append("# Glyphnameformatter Changes in RoboFont")
 
+text.append("\n\n * [Supported Ranges](https://github.com/LettError/glyphNameFormatter/blob/master/coverage.md)")
+text.append(" * [Changes compared to RoboFont](https://github.com/LettError/glyphNameFormatter/blob/master/robofontUpdate.md)")
+text.append(" * [GlyphnameFormatter on GitHub](https://github.com/LettError/glyphNameFormatter)")
 
 # read the list at the path, return a dict with uni: name pairs
 def readList(newPath, rfPath):    
@@ -47,8 +49,9 @@ def readList(newPath, rfPath):
 
 countNew, countRF, data = readList(uniPath, rfPath)
 
-text.append(f"\n\nCurrent list has {countNew} names.")
-text.append(f"Current RoboFont {s} has {countRF} names.")
+text.append(f"\n\n * Current exported list has {countNew} names.")
+text.append(f" * Current list in RoboFont {s} has {countRF} names.")
+text.append(f" * {countNew - countRF} names added.")
 
 text.append("\n\n## Additions")
 text.append("| Unicode | Glyphname | Range Name |")

@@ -59,6 +59,11 @@ def reportCoverage():
 
     text = []
     text.append("")
+
+    text.append("\n\n * [Supported Ranges](https://github.com/LettError/glyphNameFormatter/blob/master/coverage.md)")
+    text.append(" * [Changes compared to RoboFont](https://github.com/LettError/glyphNameFormatter/blob/master/robofontUpdate.md)")
+    text.append(" * [GlyphnameFormatter on GitHub](https://github.com/LettError/glyphNameFormatter)")
+
     text.append("## Version %s"%unicodeVersion)
     text.append("\n\n\n")
     text.append("### Note:\n")
