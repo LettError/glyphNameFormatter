@@ -1,14 +1,12 @@
 
-
 def process(self):
+    self.setExperimental()
     self.edit("HANGUL")
-    self.edit("LETTER")
-    self.edit("-")
+    self.edit("SYLLABLE")
     self.lower()
-    self.compress()
-    self.scriptTag = self.scriptTag + "Compa"
     self.scriptPrefix()
+
 
 if __name__ == "__main__":
     from glyphNameFormatter.exporters import printRange
-    printRange("Hangul Compatibility Jamo")
+    printRange("Hangul Syllables")
