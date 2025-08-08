@@ -111,7 +111,6 @@ _scriptPrefixes = {
     "vertical forms": "vert",
     "Playing Cards": "cards",
     "Zanabazar Square": "zanb",
-    "Thai": 'th',
     "Soyombo": "soyo"
 }
 
