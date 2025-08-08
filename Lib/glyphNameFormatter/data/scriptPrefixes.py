@@ -104,6 +104,7 @@ _scriptPrefixes = {
     "optical character recognition": "ocr",
     "oriya": "orya",  # "odia"
     "phonetic": "phon",
+    "thai": "th-{glyphName}",
     "vedic": "ve",
     "vertical forms": "vert",
     "Playing Cards": "cards",

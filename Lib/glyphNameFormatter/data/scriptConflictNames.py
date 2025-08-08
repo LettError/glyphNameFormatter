@@ -39,6 +39,7 @@ scriptConflictNames = [
     "hyphen",
     "i",
     "iota",
+    "khitansmallscriptcharacter#",
     "marchenlettera",
     "nine",
     "numbersign",

@@ -91,7 +91,7 @@ def generateFlat(path, onlySupported=True, scriptSeparator=None, scriptAsPrefix=
             else:
                 data.append("%s %04X" % (name, u))
 
-
+    print(f"\tsaving: {path}")
     f = open(path, "w")
     f.write("\n".join(data))
     f.close()
