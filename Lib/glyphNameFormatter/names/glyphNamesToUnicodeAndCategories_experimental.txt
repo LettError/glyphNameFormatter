@@ -1,15 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-<<<<<<< HEAD
-# GlyphNameFormatter version 0.7 - git commit: 504
+# GlyphNameFormatter version 0.7 - git commit: 509
 # Unicode version: Unicode 16.0.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/a597825
-# Generated on 2025 08 08 16:25:11
-=======
-# GlyphNameFormatter version 0.7 - git commit: 505
-# Unicode version: Unicode 16.0.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/520ac3d
-# Generated on 2025 08 08 16:20:59
->>>>>>> new-thai-names#117
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/3e39f0b
+# Generated on 2025 08 08 16:31:02
 # <glyphName> <hex unicode> <unicodeCategory>
 #
 # Basic Latin
@@ -2732,95 +2725,6 @@ sinh:vocalicrrsign 0DF2 Mc
 sinh:vocalicllsign 0DF3 Mc
 sinh:kunddaliya 0DF4 Po
 # Thai
-<<<<<<< HEAD
-th:kokai 0E01 Lo
-th:khokhai 0E02 Lo
-th:khokhuat 0E03 Lo
-th:khokhwai 0E04 Lo
-th:khokhon 0E05 Lo
-th:khorakhang 0E06 Lo
-th:ngongu 0E07 Lo
-th:chochan 0E08 Lo
-th:choching 0E09 Lo
-th:chochang 0E0A Lo
-th:soso 0E0B Lo
-th:chochoe 0E0C Lo
-th:yoying 0E0D Lo
-th:dochada 0E0E Lo
-th:topatak 0E0F Lo
-th:thothan 0E10 Lo
-th:thonangmontho 0E11 Lo
-th:thophuthao 0E12 Lo
-th:nonen 0E13 Lo
-th:dodek 0E14 Lo
-th:totao 0E15 Lo
-th:thothung 0E16 Lo
-th:thothahan 0E17 Lo
-th:thothong 0E18 Lo
-th:nonu 0E19 Lo
-th:bobaimai 0E1A Lo
-th:popla 0E1B Lo
-th:phophung 0E1C Lo
-th:fofa 0E1D Lo
-th:phophan 0E1E Lo
-th:fofan 0E1F Lo
-th:phosamphao 0E20 Lo
-th:moma 0E21 Lo
-th:yoyak 0E22 Lo
-th:rorua 0E23 Lo
-th:ru 0E24 Lo
-th:loling 0E25 Lo
-th:lu 0E26 Lo
-th:wowaen 0E27 Lo
-th:sosala 0E28 Lo
-th:sorusi 0E29 Lo
-th:sosua 0E2A Lo
-th:hohip 0E2B Lo
-th:lochula 0E2C Lo
-th:oang 0E2D Lo
-th:honokhuk 0E2E Lo
-th:paiyannoi 0E2F Lo
-th:saraa 0E30 Lo
-th:maihan-akat 0E31 Mn
-th:saraaa 0E32 Lo
-th:saraam 0E33 Lo
-th:sarai 0E34 Mn
-th:saraii 0E35 Mn
-th:saraue 0E36 Mn
-th:sarauee 0E37 Mn
-th:sarau 0E38 Mn
-th:sarauu 0E39 Mn
-th:phinthu 0E3A Mn
-th:baht 0E3F Sc
-th:sarae 0E40 Lo
-th:saraae 0E41 Lo
-th:sarao 0E42 Lo
-th:saraaimaimuan 0E43 Lo
-th:saraaimaimalai 0E44 Lo
-th:lakkhangyao 0E45 Lo
-th:maiyamok 0E46 Lm
-th:maitaikhu 0E47 Mn
-th:maiek 0E48 Mn
-th:maitho 0E49 Mn
-th:maitri 0E4A Mn
-th:maichattawa 0E4B Mn
-th:thanthakhat 0E4C Mn
-th:nikhahit 0E4D Mn
-th:yamakkan 0E4E Mn
-th:fongman 0E4F Po
-th:zero 0E50 Nd
-th:one 0E51 Nd
-th:two 0E52 Nd
-th:three 0E53 Nd
-th:four 0E54 Nd
-th:five 0E55 Nd
-th:six 0E56 Nd
-th:seven 0E57 Nd
-th:eight 0E58 Nd
-th:nine 0E59 Nd
-th:angkhankhu 0E5A Po
-th:khomut 0E5B Po
-=======
 th-kokai 0E01 Lo
 th-khokhai 0E02 Lo
 th-khokhuat 0E03 Lo
@@ -2908,7 +2812,6 @@ th-eight 0E58 Nd
 th-nine 0E59 Nd
 th-angkhankhu 0E5A Po
 th-khomut 0E5B Po
->>>>>>> new-thai-names#117
 # Tibetan
 tibt:omsyllable 0F00 Lo
 tibt:gteryigmgotruncatedamark 0F01 So

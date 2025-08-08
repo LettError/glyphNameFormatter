@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.7 - git commit: 505
+# GlyphNameFormatter version 0.7 - git commit: 509
 # Unicode version: Unicode 16.0.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/520ac3d
-# Generated on 2025 08 08 16:21:00
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/3e39f0b
+# Generated on 2025 08 08 16:31:02
 # <glyphName> <hex unicode>
 # Separator ":"
 # Prefixed "True"
