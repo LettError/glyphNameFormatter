@@ -16,6 +16,9 @@
    26A : Ismall                                            -                        Ismall                                  IPA Extensions                          LATIN LETTER SMALL CAPITAL I
   A7AE : Ismall                                            -                        Ismall                                  Latin Extended-D                        LATIN CAPITAL LETTER SMALL CAPITAL I
 
+   39B : Lambda                                            -                        Lambda                                  Greek and Coptic                        GREEK CAPITAL LETTER LAMDA
+  A7DA : Lambda                                            -                        Lambda                                  Latin Extended-D                        LATIN CAPITAL LETTER LAMBDA
+
    3A9 : Omega                                             -                        Omega                                   Greek and Coptic                        GREEK CAPITAL LETTER OMEGA
   A7B6 : Omega                                             -                        Omega                                   Latin Extended-D                        LATIN CAPITAL LETTER OMEGA
 
@@ -28,17 +31,11 @@
     E6 : ae                                                -                        ae                                      Latin-1 Supplement                      LATIN SMALL LETTER AE
    6D5 : ae                                                -                        ae                                      Arabic                                  ARABIC LETTER AE    
 
-   639 : ain                                               -                        ain                                     Arabic                                  ARABIC LETTER AIN   
-  1D25 : ain                                               -                        ain                                     Phonetic Extensions                     LATIN LETTER AIN    
-
    251 : alpha                                             -                        alpha                                   IPA Extensions                          LATIN SMALL LETTER ALPHA
    3B1 : alpha                                             -                        alpha                                   Greek and Coptic                        GREEK SMALL LETTER ALPHA
 
  1F476 : baby                                              -                        baby                                    Miscellaneous Symbols and Pictographs   BABY                
  1F6BC : baby                                              -                        baby                                    Transport and Map Symbols               BABY SYMBOL         
-
-  237E : bell                                              -                        bell                                    Miscellaneous Technical                 BELL SYMBOL         
- 1F514 : bell                                              -                        bell                                    Miscellaneous Symbols and Pictographs   BELL                
 
    3B2 : beta                                              -                        beta                                    Greek and Coptic                        GREEK SMALL LETTER BETA
   A7B5 : beta                                              -                        beta                                    Latin Extended-D                        LATIN SMALL LETTER BETA
@@ -48,6 +45,9 @@
 
   2441 : chair                                             -                        chair                                   Optical Character Recognition           OCR CHAIR           
  1FA91 : chair                                             -                        chair                                   Symbols and Pictographs Extended-A      CHAIR               
+
+   3C7 : chi                                               -                        chi                                     Greek and Coptic                        GREEK SMALL LETTER CHI
+  AB53 : chi                                               -                        chi                                     Latin Extended-E                        LATIN SMALL LETTER CHI
 
 
 
@@ -103,6 +103,9 @@
    261 : gscript                                           -                        gscript                                 IPA Extensions                          LATIN SMALL LETTER SCRIPT G
   210A : gscript                                           -                        gscript                                 Letterlike Symbols                      SCRIPT SMALL G      
 
+  2440 : hook                                              -                        hook                                    Optical Character Recognition           OCR HOOK            
+ 1FA9D : hook                                              -                        hook                                    Symbols and Pictographs Extended-A      HOOK                
+
     2D : hyphen                                            -                        hyphen                                  Basic Latin                             HYPHEN-MINUS        
   2010 : hyphen                                            -                        hyphen                                  General Punctuation                     HYPHEN              
 
@@ -112,6 +115,10 @@
 
    269 : iota                                              -                        iota                                    IPA Extensions                          LATIN SMALL LETTER IOTA
    3B9 : iota                                              -                        iota                                    Greek and Coptic                        GREEK SMALL LETTER IOTA
+
+
+   3BB : lambda                                            -                        lambda                                  Greek and Coptic                        GREEK SMALL LETTER LAMDA
+  A7DB : lambda                                            -                        lambda                                  Latin Extended-D                        LATIN SMALL LETTER LAMBDA
 
  11C88 : marchenlettera                                    -                        marchenlettera                          Marchen                                 MARCHEN LETTER -A   
  11C8F : marchenlettera                                    -                        marchenlettera                          Marchen                                 MARCHEN LETTER A    
@@ -150,9 +157,6 @@
    37E : question                                          -                        question                                Greek and Coptic                        GREEK QUESTION MARK 
    61F : question                                          -                        question                                Arabic                                  ARABIC QUESTION MARK
 
-   2DA : ring                                              -                        ring                                    Spacing Modifier Letters                RING ABOVE          
- 1F48D : ring                                              -                        ring                                    Miscellaneous Symbols and Pictographs   RING                
-
   AB4B : rscript                                           -                        rscript                                 Latin Extended-E                        LATIN SMALL LETTER SCRIPT R
  1D4C7 : rscript                                           -                        rscript                                 Mathematical Alphanumeric Symbols       MATHEMATICAL SCRIPT SMALL R
 
@@ -169,9 +173,6 @@
     36 : six                                               -                        six                                     Basic Latin                             DIGIT SIX           
    666 : six                                               -                        six                                     Arabic                                  ARABIC-INDIC DIGIT SIX
   A9D6 : six                                               -                        six                                     Javanese                                JAVANESE DIGIT SIX  
-
- 11A50 : soyombolettera                                    -                        soyombolettera                          Soyombo                                 SOYOMBO LETTER A    
- 11A7A : soyombolettera                                    -                        soyombolettera                          Soyombo                                 SOYOMBO LETTER -A   
 
 
     33 : three                                             -                        three                                   Basic Latin                             DIGIT THREE         
@@ -192,20 +193,16 @@
    28A : upsilon                                           -                        upsilon                                 IPA Extensions                          LATIN SMALL LETTER UPSILON
    3C5 : upsilon                                           -                        upsilon                                 Greek and Coptic                        GREEK SMALL LETTER UPSILON
 
-   6C8 : yu                                                -                        yu                                      Arabic                                  ARABIC LETTER YU    
-  2C53 : yu                                                -                        yu                                      Glagolitic                              GLAGOLITIC SMALL LETTER YU
-
     30 : zero                                              -                        zero                                    Basic Latin                             DIGIT ZERO          
    660 : zero                                              -                        zero                                    Arabic                                  ARABIC-INDIC DIGIT ZERO
   A9D0 : zero                                              -                        zero                                    Javanese                                JAVANESE DIGIT ZERO 
-# 64 names with conflicts, affecting 134 unicodes
+# 64 names with conflicts, affecting 132 unicodes
 
 
 Conflicts by rangename
 
 Arabic
    6D5 : ae                                                -                        ae                                      Arabic                                  ARABIC LETTER AE    
-   639 : ain                                               -                        ain                                     Arabic                                  ARABIC LETTER AIN   
    60C : comma                                             -                        comma                                   Arabic                                  ARABIC COMMA        
    606 : cuberoot                                          -                        cuberoot                                Arabic                                  ARABIC-INDIC CUBE ROOT
    66B : decimalseparator                                  -                        decimalseparator                        Arabic                                  ARABIC DECIMAL SEPARATOR
@@ -227,7 +224,6 @@ Arabic
    663 : three                                             -                        three                                   Arabic                                  ARABIC-INDIC DIGIT THREE
    662 : two                                               -                        two                                     Arabic                                  ARABIC-INDIC DIGIT TWO
    6C7 : u                                                 -                        u                                       Arabic                                  ARABIC LETTER U     
-   6C8 : yu                                                -                        yu                                      Arabic                                  ARABIC LETTER YU    
    660 : zero                                              -                        zero                                    Arabic                                  ARABIC-INDIC DIGIT ZERO
 
 Basic Latin
@@ -270,7 +266,6 @@ Geometric Shapes
 Glagolitic
   2C0B : I                                                 -                        I                                       Glagolitic                              GLAGOLITIC CAPITAL LETTER I
   2C3B : i                                                 -                        i                                       Glagolitic                              GLAGOLITIC SMALL LETTER I
-  2C53 : yu                                                -                        yu                                      Glagolitic                              GLAGOLITIC SMALL LETTER YU
 
 Greek Extended
   1FFD : acute                                             -                        acute                                   Greek Extended                          GREEK OXIA          
@@ -280,11 +275,14 @@ Greek Extended
 Greek and Coptic
    392 : Beta                                              -                        Beta                                    Greek and Coptic                        GREEK CAPITAL LETTER BETA
    3A7 : Chi                                               -                        Chi                                     Greek and Coptic                        GREEK CAPITAL LETTER CHI
+   39B : Lambda                                            -                        Lambda                                  Greek and Coptic                        GREEK CAPITAL LETTER LAMDA
    3A9 : Omega                                             -                        Omega                                   Greek and Coptic                        GREEK CAPITAL LETTER OMEGA
    3B1 : alpha                                             -                        alpha                                   Greek and Coptic                        GREEK SMALL LETTER ALPHA
    3B2 : beta                                              -                        beta                                    Greek and Coptic                        GREEK SMALL LETTER BETA
+   3C7 : chi                                               -                        chi                                     Greek and Coptic                        GREEK SMALL LETTER CHI
    3B3 : gamma                                             -                        gamma                                   Greek and Coptic                        GREEK SMALL LETTER GAMMA
    3B9 : iota                                              -                        iota                                    Greek and Coptic                        GREEK SMALL LETTER IOTA
+   3BB : lambda                                            -                        lambda                                  Greek and Coptic                        GREEK SMALL LETTER LAMDA
    3C9 : omega                                             -                        omega                                   Greek and Coptic                        GREEK SMALL LETTER OMEGA
    3C6 : phi                                               -                        phi                                     Greek and Coptic                        GREEK SMALL LETTER PHI
    37E : question                                          -                        question                                Greek and Coptic                        GREEK QUESTION MARK 
@@ -330,11 +328,14 @@ Latin Extended-D
   A7B4 : Beta                                              -                        Beta                                    Latin Extended-D                        LATIN CAPITAL LETTER BETA
   A7B3 : Chi                                               -                        Chi                                     Latin Extended-D                        LATIN CAPITAL LETTER CHI
   A7AE : Ismall                                            -                        Ismall                                  Latin Extended-D                        LATIN CAPITAL LETTER SMALL CAPITAL I
+  A7DA : Lambda                                            -                        Lambda                                  Latin Extended-D                        LATIN CAPITAL LETTER LAMBDA
   A7B6 : Omega                                             -                        Omega                                   Latin Extended-D                        LATIN CAPITAL LETTER OMEGA
   A7B5 : beta                                              -                        beta                                    Latin Extended-D                        LATIN SMALL LETTER BETA
+  A7DB : lambda                                            -                        lambda                                  Latin Extended-D                        LATIN SMALL LETTER LAMBDA
   A7B7 : omega                                             -                        omega                                   Latin Extended-D                        LATIN SMALL LETTER OMEGA
 
 Latin Extended-E
+  AB53 : chi                                               -                        chi                                     Latin Extended-E                        LATIN SMALL LETTER CHI
   AB4B : rscript                                           -                        rscript                                 Latin Extended-E                        LATIN SMALL LETTER SCRIPT R
   AB49 : rtail                                             -                        rtail                                   Latin Extended-E                        LATIN SMALL LETTER R WITH CROSSED-TAIL
 
@@ -363,32 +364,23 @@ Miscellaneous Symbols
 
 Miscellaneous Symbols and Pictographs
  1F476 : baby                                              -                        baby                                    Miscellaneous Symbols and Pictographs   BABY                
- 1F514 : bell                                              -                        bell                                    Miscellaneous Symbols and Pictographs   BELL                
  1F4A8 : dash                                              -                        dash                                    Miscellaneous Symbols and Pictographs   DASH SYMBOL         
- 1F48D : ring                                              -                        ring                                    Miscellaneous Symbols and Pictographs   RING                
 
 Miscellaneous Technical
-  237E : bell                                              -                        bell                                    Miscellaneous Technical                 BELL SYMBOL         
   2396 : decimalseparator                                  -                        decimalseparator                        Miscellaneous Technical                 DECIMAL SEPARATOR KEY SYMBOL
 
 Optical Character Recognition
   2445 : bowtie                                            -                        bowtie                                  Optical Character Recognition           OCR BOW TIE         
   2441 : chair                                             -                        chair                                   Optical Character Recognition           OCR CHAIR           
   2448 : dash                                              -                        dash                                    Optical Character Recognition           OCR DASH            
-
-Phonetic Extensions
-  1D25 : ain                                               -                        ain                                     Phonetic Extensions                     LATIN LETTER AIN    
-
-Soyombo
- 11A50 : soyombolettera                                    -                        soyombolettera                          Soyombo                                 SOYOMBO LETTER A    
- 11A7A : soyombolettera                                    -                        soyombolettera                          Soyombo                                 SOYOMBO LETTER -A   
+  2440 : hook                                              -                        hook                                    Optical Character Recognition           OCR HOOK            
 
 Spacing Modifier Letters
-   2DA : ring                                              -                        ring                                    Spacing Modifier Letters                RING ABOVE          
    2DC : tilde                                             -                        tilde                                   Spacing Modifier Letters                SMALL TILDE         
 
 Symbols and Pictographs Extended-A
  1FA91 : chair                                             -                        chair                                   Symbols and Pictographs Extended-A      CHAIR               
+ 1FA9D : hook                                              -                        hook                                    Symbols and Pictographs Extended-A      HOOK                
 
 Transport and Map Symbols
  1F6BC : baby                                              -                        baby                                    Transport and Map Symbols               BABY SYMBOL         

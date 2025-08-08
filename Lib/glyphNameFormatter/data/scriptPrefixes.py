@@ -91,6 +91,8 @@ _scriptPrefixes = {
     "fullwidth": "fwd",
     "halfwidth": "hwd",
     "greek": "gr",
+    "latingreek": "ltgr",   # greek letters, used in latin, need a prefix, so that the actual greek name do not need a gr: prefix.
+                            # so this is an artificial prefix.
     "ethiopic": "ethi",
     "hangul": "ko",
     "hebrew": "{glyphName}{scriptSeparator}hb",
@@ -108,6 +110,8 @@ _scriptPrefixes = {
     "vertical forms": "vert",
     "Playing Cards": "cards",
     "Zanabazar Square": "zanb",
+    "Thai": 'th',
+    "Soyombo": "soyo"
 }
 
 scriptPrefixes = ScriptPrefixesDict(_scriptPrefixes)

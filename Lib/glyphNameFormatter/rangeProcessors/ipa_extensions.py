@@ -1,5 +1,8 @@
+from glyphNameFormatter.data.scriptPrefixes import scriptPrefixes
 
 def process(self):
+
+
     self.edit("LATIN")
     self.edit("OPEN", "open")
     self.edit("WITH FISHHOOK", "fishhook")
@@ -30,12 +33,17 @@ def process(self):
     self.replace("LETTER GLOTTAL STOP WITH STROKE", "glottalstopstroke")
     self.replace("LETTER SMALL CAPITAL OE", "OEsmall")
 
+    
+
+
     self.processAs("Helper Diacritics")
     self.processAs("Helper Shapes")
 
     self.handleCase()
     self.replace("LETTER")
+    self.processAs("Helper Latin Greeks")
     self.compress()
+
 
 if __name__ == "__main__":
     from glyphNameFormatter.exporters import printRange
