@@ -1,7 +1,10 @@
+from glyphNameFormatter.data.scriptPrefixes import scriptPrefixes
 
 
 def process(self):
-    self.setDraft()
+
+    self.edit("MODIFIER LETTER LEFT TACK", "modLetterLeftTack")
+    self.edit("MODIFIER LETTER RIGHT TACK", "modLetterRightTack")
 
     self.edit("LENIS", "lenis")
     self.edit("WITH CROSSED-TAIL", "tail")
@@ -14,7 +17,8 @@ def process(self):
         self.edit("LATIN SMALL LETTER CHI", 'chi')
         self.edit("WITH LOW RIGHT RING", 'lowrightring')
         self.edit("WITH LOW LEFT SERIF", 'lowleftserif')
-        self.forceScriptPrefix("latin")
+        self.scriptTag = scriptPrefixes['latingreek']
+
 
     self.processAs("Latin Extended-C")
 
@@ -22,8 +26,9 @@ def process(self):
 
     if self.has("GREEK"):
         self.edit("GREEK")
-        #self.forceScriptPrefix("greek")
-        self.forceScriptPrefix("latin")
+
+    self.processAs("Helper Latin Greeks")
+
 
     self.edit("-")
 

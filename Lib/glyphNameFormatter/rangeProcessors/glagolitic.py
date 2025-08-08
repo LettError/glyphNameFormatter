@@ -1,7 +1,13 @@
 
 def process(self):
-    self.setDraft()
+
+    # handle conflict with Yu Arabic
+    if self.uniNumber == 0x2C53:
+        self.forceScriptPrefix("Glagolitic")
+
     self.edit("GLAGOLITIC")
+
+
     self.handleCase()
     self.compress()
 

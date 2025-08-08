@@ -19,6 +19,7 @@ def findConflict(makeModule=True, makeReport=False, printReport=False):
         'cjkunifiedideograph#',
         'cjkcompatibilityideograph#',
         'nushucharacter#',
+        'khitansmallscriptcharacter#'
         ]
     #extendedNames = {}
     lines = []
