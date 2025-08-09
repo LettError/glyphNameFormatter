@@ -1,4 +1,4 @@
-# Glyphnameformatter Changes in RoboFont
+# Glyphnameformatter Changes since RoboFont 4.6b build 2504161619
 
 
  * [Supported Ranges](https://github.com/LettError/glyphNameFormatter/blob/master/coverage.md)
@@ -6,40 +6,14 @@
  * [GlyphnameFormatter on GitHub](https://github.com/LettError/glyphNameFormatter)
 
 
- * Current exported list has 13603 names.
- * Current list in RoboFont 4.5b build 2409181811 has 12167 names.
- * 1436 names added.
+ * Current exported list has 13800 names.
+ * Current list in RoboFont 4.6b build 2504161619 has 12332 names.
+ * 1468 names added.
 
 
 ## Additions
 | Unicode | Glyphname | Range Name |
 | ----- | ----- |  ----- |
-| 0x1380 | ethi:mwasebatbeit | Ethiopic Supplement |
-| 0x1381 | ethi:mwi | Ethiopic Supplement |
-| 0x1382 | ethi:mwee | Ethiopic Supplement |
-| 0x1383 | ethi:mwe | Ethiopic Supplement |
-| 0x1384 | ethi:bwasebatbeit | Ethiopic Supplement |
-| 0x1385 | ethi:bwi | Ethiopic Supplement |
-| 0x1386 | ethi:bwee | Ethiopic Supplement |
-| 0x1387 | ethi:bwe | Ethiopic Supplement |
-| 0x1388 | ethi:fwasebatbeit | Ethiopic Supplement |
-| 0x1389 | ethi:fwi | Ethiopic Supplement |
-| 0x138a | ethi:fwee | Ethiopic Supplement |
-| 0x138b | ethi:fwe | Ethiopic Supplement |
-| 0x138c | ethi:pwasebatbeit | Ethiopic Supplement |
-| 0x138d | ethi:pwi | Ethiopic Supplement |
-| 0x138e | ethi:pwee | Ethiopic Supplement |
-| 0x138f | ethi:pwe | Ethiopic Supplement |
-| 0x1390 | ethi:yizet | Ethiopic Supplement |
-| 0x1391 | ethi:deret | Ethiopic Supplement |
-| 0x1392 | ethi:rikrik | Ethiopic Supplement |
-| 0x1393 | ethi:shortrikrik | Ethiopic Supplement |
-| 0x1394 | ethi:difat | Ethiopic Supplement |
-| 0x1395 | ethi:kenat | Ethiopic Supplement |
-| 0x1396 | ethi:chiret | Ethiopic Supplement |
-| 0x1397 | ethi:hidet | Ethiopic Supplement |
-| 0x1398 | ethi:derethidet | Ethiopic Supplement |
-| 0x1399 | ethi:kurt | Ethiopic Supplement |
 | 0x20d0 | leftHarpoonAbovecmb | Combining Diacritical Marks for Symbols |
 | 0x20d1 | rightHarpoonAbovecmb | Combining Diacritical Marks for Symbols |
 | 0x20d2 | longVerticalLineOverlaycmb | Combining Diacritical Marks for Symbols |
@@ -841,123 +815,12 @@
 | 0x2bfd | passedSymbol | Miscellaneous Symbols and Arrows |
 | 0x2bfe | reversedRightAngle | Miscellaneous Symbols and Arrows |
 | 0x2bff | hellschreiberPauseSymbol | Miscellaneous Symbols and Arrows |
-| 0x2d80 | ethi:loa | Ethiopic Extended |
-| 0x2d81 | ethi:moa | Ethiopic Extended |
-| 0x2d82 | ethi:roa | Ethiopic Extended |
-| 0x2d83 | ethi:soa | Ethiopic Extended |
-| 0x2d84 | ethi:shoa | Ethiopic Extended |
-| 0x2d85 | ethi:boa | Ethiopic Extended |
-| 0x2d86 | ethi:toa | Ethiopic Extended |
-| 0x2d87 | ethi:coa | Ethiopic Extended |
-| 0x2d88 | ethi:noa | Ethiopic Extended |
-| 0x2d89 | ethi:nyoa | Ethiopic Extended |
-| 0x2d8a | ethi:oaglottal | Ethiopic Extended |
-| 0x2d8b | ethi:zoa | Ethiopic Extended |
-| 0x2d8c | ethi:doa | Ethiopic Extended |
-| 0x2d8d | ethi:ddoa | Ethiopic Extended |
-| 0x2d8e | ethi:joa | Ethiopic Extended |
-| 0x2d8f | ethi:thoa | Ethiopic Extended |
-| 0x2d90 | ethi:choa | Ethiopic Extended |
-| 0x2d91 | ethi:phoa | Ethiopic Extended |
-| 0x2d92 | ethi:poa | Ethiopic Extended |
-| 0x2d93 | ethi:ggwa | Ethiopic Extended |
-| 0x2d94 | ethi:ggwi | Ethiopic Extended |
-| 0x2d95 | ethi:ggwee | Ethiopic Extended |
-| 0x2d96 | ethi:ggwe | Ethiopic Extended |
-| 0x2da0 | ethi:ssa | Ethiopic Extended |
-| 0x2da1 | ethi:ssu | Ethiopic Extended |
-| 0x2da2 | ethi:ssi | Ethiopic Extended |
-| 0x2da3 | ethi:ssaa | Ethiopic Extended |
-| 0x2da4 | ethi:ssee | Ethiopic Extended |
-| 0x2da5 | ethi:sse | Ethiopic Extended |
-| 0x2da6 | ethi:sso | Ethiopic Extended |
-| 0x2da8 | ethi:cca | Ethiopic Extended |
-| 0x2da9 | ethi:ccu | Ethiopic Extended |
-| 0x2daa | ethi:cci | Ethiopic Extended |
-| 0x2dab | ethi:ccaa | Ethiopic Extended |
-| 0x2dac | ethi:ccee | Ethiopic Extended |
-| 0x2dad | ethi:cce | Ethiopic Extended |
-| 0x2dae | ethi:cco | Ethiopic Extended |
-| 0x2db0 | ethi:zza | Ethiopic Extended |
-| 0x2db1 | ethi:zzu | Ethiopic Extended |
-| 0x2db2 | ethi:zzi | Ethiopic Extended |
-| 0x2db3 | ethi:zzaa | Ethiopic Extended |
-| 0x2db4 | ethi:zzee | Ethiopic Extended |
-| 0x2db5 | ethi:zze | Ethiopic Extended |
-| 0x2db6 | ethi:zzo | Ethiopic Extended |
-| 0x2db8 | ethi:ccha | Ethiopic Extended |
-| 0x2db9 | ethi:cchu | Ethiopic Extended |
-| 0x2dba | ethi:cchi | Ethiopic Extended |
-| 0x2dbb | ethi:cchaa | Ethiopic Extended |
-| 0x2dbc | ethi:cchee | Ethiopic Extended |
-| 0x2dbd | ethi:cche | Ethiopic Extended |
-| 0x2dbe | ethi:ccho | Ethiopic Extended |
-| 0x2dc0 | ethi:qya | Ethiopic Extended |
-| 0x2dc1 | ethi:qyu | Ethiopic Extended |
-| 0x2dc2 | ethi:qyi | Ethiopic Extended |
-| 0x2dc3 | ethi:qyaa | Ethiopic Extended |
-| 0x2dc4 | ethi:qyee | Ethiopic Extended |
-| 0x2dc5 | ethi:qye | Ethiopic Extended |
-| 0x2dc6 | ethi:qyo | Ethiopic Extended |
-| 0x2dc8 | ethi:kya | Ethiopic Extended |
-| 0x2dc9 | ethi:kyu | Ethiopic Extended |
-| 0x2dca | ethi:kyi | Ethiopic Extended |
-| 0x2dcb | ethi:kyaa | Ethiopic Extended |
-| 0x2dcc | ethi:kyee | Ethiopic Extended |
-| 0x2dcd | ethi:kye | Ethiopic Extended |
-| 0x2dce | ethi:kyo | Ethiopic Extended |
-| 0x2dd0 | ethi:xya | Ethiopic Extended |
-| 0x2dd1 | ethi:xyu | Ethiopic Extended |
-| 0x2dd2 | ethi:xyi | Ethiopic Extended |
-| 0x2dd3 | ethi:xyaa | Ethiopic Extended |
-| 0x2dd4 | ethi:xyee | Ethiopic Extended |
-| 0x2dd5 | ethi:xye | Ethiopic Extended |
-| 0x2dd6 | ethi:xyo | Ethiopic Extended |
-| 0x2dd8 | ethi:gya | Ethiopic Extended |
-| 0x2dd9 | ethi:gyu | Ethiopic Extended |
-| 0x2dda | ethi:gyi | Ethiopic Extended |
-| 0x2ddb | ethi:gyaa | Ethiopic Extended |
-| 0x2ddc | ethi:gyee | Ethiopic Extended |
-| 0x2ddd | ethi:gye | Ethiopic Extended |
-| 0x2dde | ethi:gyo | Ethiopic Extended |
 | 0xa7cb | Ramshorn | Latin Extended-D |
 | 0xa7cc | Sdiagonalstroke | Latin Extended-D |
 | 0xa7cd | sdiagonalstroke | Latin Extended-D |
 | 0xa7da | ltgr:Lambda | Latin Extended-D |
 | 0xa7db | ltgr:lambda | Latin Extended-D |
 | 0xa7dc | Lambdastroke | Latin Extended-D |
-| 0xab01 | ethi:tthu | Ethiopic Extended-A |
-| 0xab02 | ethi:tthi | Ethiopic Extended-A |
-| 0xab03 | ethi:tthaa | Ethiopic Extended-A |
-| 0xab04 | ethi:tthee | Ethiopic Extended-A |
-| 0xab05 | ethi:tthe | Ethiopic Extended-A |
-| 0xab06 | ethi:ttho | Ethiopic Extended-A |
-| 0xab09 | ethi:ddhu | Ethiopic Extended-A |
-| 0xab0a | ethi:ddhi | Ethiopic Extended-A |
-| 0xab0b | ethi:ddhaa | Ethiopic Extended-A |
-| 0xab0c | ethi:ddhee | Ethiopic Extended-A |
-| 0xab0d | ethi:ddhe | Ethiopic Extended-A |
-| 0xab0e | ethi:ddho | Ethiopic Extended-A |
-| 0xab11 | ethi:dzu | Ethiopic Extended-A |
-| 0xab12 | ethi:dzi | Ethiopic Extended-A |
-| 0xab13 | ethi:dzaa | Ethiopic Extended-A |
-| 0xab14 | ethi:dzee | Ethiopic Extended-A |
-| 0xab15 | ethi:dze | Ethiopic Extended-A |
-| 0xab16 | ethi:dzo | Ethiopic Extended-A |
-| 0xab20 | ethi:cchha | Ethiopic Extended-A |
-| 0xab21 | ethi:cchhu | Ethiopic Extended-A |
-| 0xab22 | ethi:cchhi | Ethiopic Extended-A |
-| 0xab23 | ethi:cchhaa | Ethiopic Extended-A |
-| 0xab24 | ethi:cchhee | Ethiopic Extended-A |
-| 0xab25 | ethi:cchhe | Ethiopic Extended-A |
-| 0xab26 | ethi:cchho | Ethiopic Extended-A |
-| 0xab28 | ethi:bba | Ethiopic Extended-A |
-| 0xab29 | ethi:bbu | Ethiopic Extended-A |
-| 0xab2a | ethi:bbi | Ethiopic Extended-A |
-| 0xab2b | ethi:bbaa | Ethiopic Extended-A |
-| 0xab2c | ethi:bbee | Ethiopic Extended-A |
-| 0xab2d | ethi:bbe | Ethiopic Extended-A |
-| 0xab2e | ethi:bbo | Ethiopic Extended-A |
 | 0x10780 | modifierAasmall | Latin Extended-F |
 | 0x10781 | modifierLetterSuperscriptTriangularColon | Latin Extended-F |
 | 0x10782 | modifierLetterSuperscriptHalfTriangularColon | Latin Extended-F |
@@ -1015,34 +878,89 @@
 | 0x107b8 | modifierLetterAlveolarClick | Latin Extended-F |
 | 0x107b9 | modifierLetterRetroflexClickWithRetroflexHook | Latin Extended-F |
 | 0x107ba | sWithCurlmod | Latin Extended-F |
-| 0x1e7e0 | ethi:hhya | Ethiopic Extended-B |
-| 0x1e7e1 | ethi:hhyu | Ethiopic Extended-B |
-| 0x1e7e2 | ethi:hhyi | Ethiopic Extended-B |
-| 0x1e7e3 | ethi:hhyaa | Ethiopic Extended-B |
-| 0x1e7e4 | ethi:hhyee | Ethiopic Extended-B |
-| 0x1e7e5 | ethi:hhye | Ethiopic Extended-B |
-| 0x1e7e6 | ethi:hhyo | Ethiopic Extended-B |
-| 0x1e7e8 | ethi:hhwagurage | Ethiopic Extended-B |
-| 0x1e7e9 | ethi:hhwi | Ethiopic Extended-B |
-| 0x1e7ea | ethi:hhwee | Ethiopic Extended-B |
-| 0x1e7eb | ethi:hhwe | Ethiopic Extended-B |
-| 0x1e7ed | ethi:mwigurage | Ethiopic Extended-B |
-| 0x1e7ee | ethi:mweegurage | Ethiopic Extended-B |
-| 0x1e7f0 | ethi:qwigurage | Ethiopic Extended-B |
-| 0x1e7f1 | ethi:qweegurage | Ethiopic Extended-B |
-| 0x1e7f2 | ethi:qwegurage | Ethiopic Extended-B |
-| 0x1e7f3 | ethi:bwigurage | Ethiopic Extended-B |
-| 0x1e7f4 | ethi:bweegurage | Ethiopic Extended-B |
-| 0x1e7f5 | ethi:kwigurage | Ethiopic Extended-B |
-| 0x1e7f6 | ethi:kweegurage | Ethiopic Extended-B |
-| 0x1e7f7 | ethi:kwegurage | Ethiopic Extended-B |
-| 0x1e7f8 | ethi:gwigurage | Ethiopic Extended-B |
-| 0x1e7f9 | ethi:gweegurage | Ethiopic Extended-B |
-| 0x1e7fa | ethi:gwegurage | Ethiopic Extended-B |
-| 0x1e7fb | ethi:fwigurage | Ethiopic Extended-B |
-| 0x1e7fc | ethi:fweegurage | Ethiopic Extended-B |
-| 0x1e7fd | ethi:pwigurage | Ethiopic Extended-B |
-| 0x1e7fe | ethi:pweegurage | Ethiopic Extended-B |
+| 0x11a50 | soyo:a | Soyombo |
+| 0x11a51 | soyo:iVowelSign | Soyombo |
+| 0x11a52 | soyo:ueVowelSign | Soyombo |
+| 0x11a53 | soyo:uVowelSign | Soyombo |
+| 0x11a54 | soyo:eVowelSign | Soyombo |
+| 0x11a55 | soyo:oVowelSign | Soyombo |
+| 0x11a56 | soyo:oeVowelSign | Soyombo |
+| 0x11a57 | soyo:aiVowelSign | Soyombo |
+| 0x11a58 | soyo:auVowelSign | Soyombo |
+| 0x11a59 | soyo:vocalicRVowelSign | Soyombo |
+| 0x11a5a | soyo:vocalicLVowelSign | Soyombo |
+| 0x11a5b | soyo:vowelLengthMark | Soyombo |
+| 0x11a5c | soyo:ka | Soyombo |
+| 0x11a5d | soyo:kha | Soyombo |
+| 0x11a5e | soyo:ga | Soyombo |
+| 0x11a5f | soyo:gha | Soyombo |
+| 0x11a60 | soyo:nga | Soyombo |
+| 0x11a61 | soyo:ca | Soyombo |
+| 0x11a62 | soyo:cha | Soyombo |
+| 0x11a63 | soyo:ja | Soyombo |
+| 0x11a64 | soyo:jha | Soyombo |
+| 0x11a65 | soyo:nya | Soyombo |
+| 0x11a66 | soyo:tta | Soyombo |
+| 0x11a67 | soyo:ttha | Soyombo |
+| 0x11a68 | soyo:dda | Soyombo |
+| 0x11a69 | soyo:ddha | Soyombo |
+| 0x11a6a | soyo:nna | Soyombo |
+| 0x11a6b | soyo:ta | Soyombo |
+| 0x11a6c | soyo:tha | Soyombo |
+| 0x11a6d | soyo:da | Soyombo |
+| 0x11a6e | soyo:dha | Soyombo |
+| 0x11a6f | soyo:na | Soyombo |
+| 0x11a70 | soyo:pa | Soyombo |
+| 0x11a71 | soyo:pha | Soyombo |
+| 0x11a72 | soyo:ba | Soyombo |
+| 0x11a73 | soyo:bha | Soyombo |
+| 0x11a74 | soyo:ma | Soyombo |
+| 0x11a75 | soyo:tsa | Soyombo |
+| 0x11a76 | soyo:tsha | Soyombo |
+| 0x11a77 | soyo:dza | Soyombo |
+| 0x11a78 | soyo:zha | Soyombo |
+| 0x11a79 | soyo:za | Soyombo |
+| 0x11a7a | soyo:-a | Soyombo |
+| 0x11a7b | soyo:ya | Soyombo |
+| 0x11a7c | soyo:ra | Soyombo |
+| 0x11a7d | soyo:la | Soyombo |
+| 0x11a7e | soyo:va | Soyombo |
+| 0x11a7f | soyo:sha | Soyombo |
+| 0x11a80 | soyo:ssa | Soyombo |
+| 0x11a81 | soyo:sa | Soyombo |
+| 0x11a82 | soyo:ha | Soyombo |
+| 0x11a83 | soyo:kssa | Soyombo |
+| 0x11a84 | soyo:signJihvamuliya | Soyombo |
+| 0x11a85 | soyo:signUpadhmaniya | Soyombo |
+| 0x11a86 | soyo:raClusterInitial | Soyombo |
+| 0x11a87 | soyo:laClusterInitial | Soyombo |
+| 0x11a88 | soyo:shaClusterInitial | Soyombo |
+| 0x11a89 | soyo:saClusterInitial | Soyombo |
+| 0x11a8a | soyo:finalConsonantSignG | Soyombo |
+| 0x11a8b | soyo:finalConsonantSignK | Soyombo |
+| 0x11a8c | soyo:finalConsonantSignNg | Soyombo |
+| 0x11a8d | soyo:finalConsonantSignD | Soyombo |
+| 0x11a8e | soyo:finalConsonantSignN | Soyombo |
+| 0x11a8f | soyo:finalConsonantSignB | Soyombo |
+| 0x11a90 | soyo:finalConsonantSignM | Soyombo |
+| 0x11a91 | soyo:finalConsonantSignR | Soyombo |
+| 0x11a92 | soyo:finalConsonantSignL | Soyombo |
+| 0x11a93 | soyo:finalConsonantSignSh | Soyombo |
+| 0x11a94 | soyo:finalConsonantSignS | Soyombo |
+| 0x11a95 | soyo:finalConsonantSign-a | Soyombo |
+| 0x11a96 | soyo:signAnusvara | Soyombo |
+| 0x11a97 | soyo:signVisarga | Soyombo |
+| 0x11a98 | soyo:geminationMark | Soyombo |
+| 0x11a99 | soyo:subjoiner | Soyombo |
+| 0x11a9a | soyo:markTsheg | Soyombo |
+| 0x11a9b | soyo:markShad | Soyombo |
+| 0x11a9c | soyo:markDoubleShad | Soyombo |
+| 0x11a9d | soyo:markPluta | Soyombo |
+| 0x11a9e | soyo:headMarkWithMoonAndSunAndTripleFlame | Soyombo |
+| 0x11a9f | soyo:headMarkWithMoonAndSunAndFlame | Soyombo |
+| 0x11aa0 | soyo:headMarkWithMoonAndSun | Soyombo |
+| 0x11aa1 | soyo:terminalMark-1 | Soyombo |
+| 0x11aa2 | soyo:terminalMark-2 | Soyombo |
 | 0x1f000 | eastWindMahjong | Mahjong Tiles |
 | 0x1f001 | southWindMahjong | Mahjong Tiles |
 | 0x1f002 | westWindMahjong | Mahjong Tiles |
@@ -1450,9 +1368,123 @@
 | 0x1fa6b | blackChariotXq | Chess Symbols |
 | 0x1fa6c | blackCannonXq | Chess Symbols |
 | 0x1fa6d | blackSoldierXq | Chess Symbols |
+| 0x1fa70 | balletShoes | Symbols and Pictographs Extended-A |
+| 0x1fa71 | onepieceSwimsuit | Symbols and Pictographs Extended-A |
+| 0x1fa72 | briefs | Symbols and Pictographs Extended-A |
+| 0x1fa73 | shorts | Symbols and Pictographs Extended-A |
+| 0x1fa74 | thongSandal | Symbols and Pictographs Extended-A |
+| 0x1fa75 | lightBlueHeart | Symbols and Pictographs Extended-A |
+| 0x1fa76 | greyHeart | Symbols and Pictographs Extended-A |
+| 0x1fa77 | pinkHeart | Symbols and Pictographs Extended-A |
+| 0x1fa78 | dropOfBlood | Symbols and Pictographs Extended-A |
+| 0x1fa79 | adhesiveBandage | Symbols and Pictographs Extended-A |
+| 0x1fa7a | stethoscope | Symbols and Pictographs Extended-A |
+| 0x1fa7b | xray | Symbols and Pictographs Extended-A |
+| 0x1fa7c | crutch | Symbols and Pictographs Extended-A |
+| 0x1fa80 | yoyo | Symbols and Pictographs Extended-A |
+| 0x1fa81 | kite | Symbols and Pictographs Extended-A |
+| 0x1fa82 | parachute | Symbols and Pictographs Extended-A |
+| 0x1fa83 | boomerang | Symbols and Pictographs Extended-A |
+| 0x1fa84 | magicWand | Symbols and Pictographs Extended-A |
+| 0x1fa85 | pinata | Symbols and Pictographs Extended-A |
+| 0x1fa86 | nestingDolls | Symbols and Pictographs Extended-A |
+| 0x1fa87 | maracas | Symbols and Pictographs Extended-A |
+| 0x1fa88 | flute | Symbols and Pictographs Extended-A |
+| 0x1fa89 | harp | Symbols and Pictographs Extended-A |
+| 0x1fa8f | shovel | Symbols and Pictographs Extended-A |
+| 0x1fa90 | ringedPlanet | Symbols and Pictographs Extended-A |
+| 0x1fa91 | symb:chair | Symbols and Pictographs Extended-A |
+| 0x1fa92 | razor | Symbols and Pictographs Extended-A |
+| 0x1fa93 | axe | Symbols and Pictographs Extended-A |
+| 0x1fa94 | diyaLamp | Symbols and Pictographs Extended-A |
+| 0x1fa95 | banjo | Symbols and Pictographs Extended-A |
+| 0x1fa96 | militaryHelmet | Symbols and Pictographs Extended-A |
+| 0x1fa97 | accordion | Symbols and Pictographs Extended-A |
+| 0x1fa98 | longDrum | Symbols and Pictographs Extended-A |
+| 0x1fa99 | coin | Symbols and Pictographs Extended-A |
+| 0x1fa9a | carpentrySaw | Symbols and Pictographs Extended-A |
+| 0x1fa9b | screwdriver | Symbols and Pictographs Extended-A |
+| 0x1fa9c | ladder | Symbols and Pictographs Extended-A |
+| 0x1fa9d | symb:hook | Symbols and Pictographs Extended-A |
+| 0x1fa9e | mirror | Symbols and Pictographs Extended-A |
+| 0x1fa9f | window | Symbols and Pictographs Extended-A |
+| 0x1faa0 | plunger | Symbols and Pictographs Extended-A |
+| 0x1faa1 | sewingNeedle | Symbols and Pictographs Extended-A |
+| 0x1faa2 | knot | Symbols and Pictographs Extended-A |
+| 0x1faa3 | bucket | Symbols and Pictographs Extended-A |
+| 0x1faa4 | mouseTrap | Symbols and Pictographs Extended-A |
+| 0x1faa5 | toothbrush | Symbols and Pictographs Extended-A |
+| 0x1faa6 | headstone | Symbols and Pictographs Extended-A |
+| 0x1faa7 | placard | Symbols and Pictographs Extended-A |
+| 0x1faa8 | rock | Symbols and Pictographs Extended-A |
+| 0x1faa9 | mirrorBall | Symbols and Pictographs Extended-A |
+| 0x1faaa | identificationCard | Symbols and Pictographs Extended-A |
+| 0x1faab | lowBattery | Symbols and Pictographs Extended-A |
+| 0x1faac | hamsa | Symbols and Pictographs Extended-A |
+| 0x1faad | foldingHandFan | Symbols and Pictographs Extended-A |
+| 0x1faae | hairPick | Symbols and Pictographs Extended-A |
+| 0x1faaf | khanda | Symbols and Pictographs Extended-A |
+| 0x1fab0 | fly | Symbols and Pictographs Extended-A |
+| 0x1fab1 | worm | Symbols and Pictographs Extended-A |
+| 0x1fab2 | beetle | Symbols and Pictographs Extended-A |
+| 0x1fab3 | cockroach | Symbols and Pictographs Extended-A |
+| 0x1fab4 | pottedPlant | Symbols and Pictographs Extended-A |
+| 0x1fab5 | wood | Symbols and Pictographs Extended-A |
+| 0x1fab6 | feather | Symbols and Pictographs Extended-A |
+| 0x1fab7 | lotus | Symbols and Pictographs Extended-A |
+| 0x1fab8 | coral | Symbols and Pictographs Extended-A |
+| 0x1fab9 | emptyNest | Symbols and Pictographs Extended-A |
+| 0x1faba | nestWithEggs | Symbols and Pictographs Extended-A |
+| 0x1fabb | hyacinth | Symbols and Pictographs Extended-A |
+| 0x1fabc | jellyfish | Symbols and Pictographs Extended-A |
+| 0x1fabd | wing | Symbols and Pictographs Extended-A |
+| 0x1fabe | leaflessTree | Symbols and Pictographs Extended-A |
+| 0x1fabf | goose | Symbols and Pictographs Extended-A |
+| 0x1fac0 | anatomicalHeart | Symbols and Pictographs Extended-A |
+| 0x1fac1 | lungs | Symbols and Pictographs Extended-A |
+| 0x1fac2 | peopleHugging | Symbols and Pictographs Extended-A |
+| 0x1fac3 | pregnantMan | Symbols and Pictographs Extended-A |
+| 0x1fac4 | pregnantPerson | Symbols and Pictographs Extended-A |
+| 0x1fac5 | personWithCrown | Symbols and Pictographs Extended-A |
+| 0x1fac6 | fingerprint | Symbols and Pictographs Extended-A |
+| 0x1face | moose | Symbols and Pictographs Extended-A |
+| 0x1facf | donkey | Symbols and Pictographs Extended-A |
+| 0x1fad0 | blueberries | Symbols and Pictographs Extended-A |
+| 0x1fad1 | bellPepper | Symbols and Pictographs Extended-A |
+| 0x1fad2 | olive | Symbols and Pictographs Extended-A |
+| 0x1fad3 | flatbread | Symbols and Pictographs Extended-A |
+| 0x1fad4 | tamale | Symbols and Pictographs Extended-A |
+| 0x1fad5 | fondue | Symbols and Pictographs Extended-A |
+| 0x1fad6 | teapot | Symbols and Pictographs Extended-A |
+| 0x1fad7 | pouringLiquid | Symbols and Pictographs Extended-A |
+| 0x1fad8 | beans | Symbols and Pictographs Extended-A |
+| 0x1fad9 | jar | Symbols and Pictographs Extended-A |
+| 0x1fada | gingerRoot | Symbols and Pictographs Extended-A |
+| 0x1fadb | peaPod | Symbols and Pictographs Extended-A |
+| 0x1fadc | rootVegetable | Symbols and Pictographs Extended-A |
+| 0x1fadf | splatter | Symbols and Pictographs Extended-A |
+| 0x1fae0 | meltingFace | Symbols and Pictographs Extended-A |
+| 0x1fae1 | salutingFace | Symbols and Pictographs Extended-A |
+| 0x1fae2 | faceWithOpenEyesAndHandOverMouth | Symbols and Pictographs Extended-A |
+| 0x1fae3 | faceWithPeekingEye | Symbols and Pictographs Extended-A |
+| 0x1fae4 | faceWithDiagonalMouth | Symbols and Pictographs Extended-A |
+| 0x1fae5 | dottedLineFace | Symbols and Pictographs Extended-A |
+| 0x1fae6 | bitingLip | Symbols and Pictographs Extended-A |
+| 0x1fae7 | bubbles | Symbols and Pictographs Extended-A |
+| 0x1fae8 | shakingFace | Symbols and Pictographs Extended-A |
+| 0x1fae9 | faceWithBagsUnderEyes | Symbols and Pictographs Extended-A |
+| 0x1faf0 | handWithIndexFingerAndThumbCrossed | Symbols and Pictographs Extended-A |
+| 0x1faf1 | rightwardsHand | Symbols and Pictographs Extended-A |
+| 0x1faf2 | leftwardsHand | Symbols and Pictographs Extended-A |
+| 0x1faf3 | palmDownHand | Symbols and Pictographs Extended-A |
+| 0x1faf4 | palmUpHand | Symbols and Pictographs Extended-A |
+| 0x1faf5 | indexPointingAtTheViewer | Symbols and Pictographs Extended-A |
+| 0x1faf6 | heartHands | Symbols and Pictographs Extended-A |
+| 0x1faf7 | leftwardsPushingHand | Symbols and Pictographs Extended-A |
+| 0x1faf8 | rightwardsPushingHand | Symbols and Pictographs Extended-A |
 
 
-## Added Names
+## Changed Names
 | Unicode | Old Glyphname | New Glyphname | Range Name |
 | ----- | ----- | ----- | ----- |
 | 0x251 | ipa:alpha  | ltgr:alpha | IPA Extensions |
@@ -1460,6 +1492,7 @@
 | 0x269 | ipa:iota  | ltgr:iota | IPA Extensions |
 | 0x278 | ipa:phi  | ltgr:phi | IPA Extensions |
 | 0x639 | arain  | ain | Arabic |
+| 0x6c8 | aryu  | yu | Arabic |
 | 0x6f0 | arzero  | perzero | Arabic |
 | 0x6f1 | arone  | perone | Arabic |
 | 0x6f2 | artwo  | pertwo | Arabic |
@@ -1470,94 +1503,95 @@
 | 0x6f7 | arseven  | perseven | Arabic |
 | 0x6f8 | areight  | pereight | Arabic |
 | 0x6f9 | arnine  | pernine | Arabic |
-| 0xe01 | thai:kokai  | th:kokai | Thai |
-| 0xe02 | thai:khokhai  | th:khokhai | Thai |
-| 0xe03 | thai:khokhuat  | th:khokhuat | Thai |
-| 0xe04 | thai:khokhwai  | th:khokhwai | Thai |
-| 0xe05 | thai:khokhon  | th:khokhon | Thai |
-| 0xe06 | thai:khorakhang  | th:khorakhang | Thai |
-| 0xe07 | thai:ngongu  | th:ngongu | Thai |
-| 0xe08 | thai:chochan  | th:chochan | Thai |
-| 0xe09 | thai:choching  | th:choching | Thai |
-| 0xe0a | thai:chochang  | th:chochang | Thai |
-| 0xe0b | thai:soso  | th:soso | Thai |
-| 0xe0c | thai:chochoe  | th:chochoe | Thai |
-| 0xe0d | thai:yoying  | th:yoying | Thai |
-| 0xe0e | thai:dochada  | th:dochada | Thai |
-| 0xe0f | thai:topatak  | th:topatak | Thai |
-| 0xe10 | thai:thothan  | th:thothan | Thai |
-| 0xe11 | thai:thonangmontho  | th:thonangmontho | Thai |
-| 0xe12 | thai:thophuthao  | th:thophuthao | Thai |
-| 0xe13 | thai:nonen  | th:nonen | Thai |
-| 0xe14 | thai:dodek  | th:dodek | Thai |
-| 0xe15 | thai:totao  | th:totao | Thai |
-| 0xe16 | thai:thothung  | th:thothung | Thai |
-| 0xe17 | thai:thothahan  | th:thothahan | Thai |
-| 0xe18 | thai:thothong  | th:thothong | Thai |
-| 0xe19 | thai:nonu  | th:nonu | Thai |
-| 0xe1a | thai:bobaimai  | th:bobaimai | Thai |
-| 0xe1b | thai:popla  | th:popla | Thai |
-| 0xe1c | thai:phophung  | th:phophung | Thai |
-| 0xe1d | thai:fofa  | th:fofa | Thai |
-| 0xe1e | thai:phophan  | th:phophan | Thai |
-| 0xe1f | thai:fofan  | th:fofan | Thai |
-| 0xe20 | thai:phosamphao  | th:phosamphao | Thai |
-| 0xe21 | thai:moma  | th:moma | Thai |
-| 0xe22 | thai:yoyak  | th:yoyak | Thai |
-| 0xe23 | thai:rorua  | th:rorua | Thai |
-| 0xe24 | thai:ru  | th:ru | Thai |
-| 0xe25 | thai:loling  | th:loling | Thai |
-| 0xe26 | thai:lu  | th:lu | Thai |
-| 0xe27 | thai:wowaen  | th:wowaen | Thai |
-| 0xe28 | thai:sosala  | th:sosala | Thai |
-| 0xe29 | thai:sorusi  | th:sorusi | Thai |
-| 0xe2a | thai:sosua  | th:sosua | Thai |
-| 0xe2b | thai:hohip  | th:hohip | Thai |
-| 0xe2c | thai:lochula  | th:lochula | Thai |
-| 0xe2d | thai:oang  | th:oang | Thai |
-| 0xe2e | thai:honokhuk  | th:honokhuk | Thai |
-| 0xe2f | thai:paiyannoi  | th:paiyannoi | Thai |
-| 0xe30 | thai:saraa  | th:saraa | Thai |
-| 0xe31 | thai:maihan-akat  | th:maihan-akat | Thai |
-| 0xe32 | thai:saraaa  | th:saraaa | Thai |
-| 0xe33 | thai:saraam  | th:saraam | Thai |
-| 0xe34 | thai:sarai  | th:sarai | Thai |
-| 0xe35 | thai:saraii  | th:saraii | Thai |
-| 0xe36 | thai:saraue  | th:saraue | Thai |
-| 0xe37 | thai:sarauee  | th:sarauee | Thai |
-| 0xe38 | thai:sarau  | th:sarau | Thai |
-| 0xe39 | thai:sarauu  | th:sarauu | Thai |
-| 0xe3a | thai:phinthu  | th:phinthu | Thai |
-| 0xe3f | thai:baht  | th:baht | Thai |
-| 0xe40 | thai:sarae  | th:sarae | Thai |
-| 0xe41 | thai:saraae  | th:saraae | Thai |
-| 0xe42 | thai:sarao  | th:sarao | Thai |
-| 0xe43 | thai:saraaimaimuan  | th:saraaimaimuan | Thai |
-| 0xe44 | thai:saraaimaimalai  | th:saraaimaimalai | Thai |
-| 0xe45 | thai:lakkhangyao  | th:lakkhangyao | Thai |
-| 0xe46 | thai:maiyamok  | th:maiyamok | Thai |
-| 0xe47 | thai:maitaikhu  | th:maitaikhu | Thai |
-| 0xe48 | thai:maiek  | th:maiek | Thai |
-| 0xe49 | thai:maitho  | th:maitho | Thai |
-| 0xe4a | thai:maitri  | th:maitri | Thai |
-| 0xe4b | thai:maichattawa  | th:maichattawa | Thai |
-| 0xe4c | thai:thanthakhat  | th:thanthakhat | Thai |
-| 0xe4d | thai:nikhahit  | th:nikhahit | Thai |
-| 0xe4e | thai:yamakkan  | th:yamakkan | Thai |
-| 0xe4f | thai:fongman  | th:fongman | Thai |
-| 0xe50 | thai:zero  | th:zero | Thai |
-| 0xe51 | thai:one  | th:one | Thai |
-| 0xe52 | thai:two  | th:two | Thai |
-| 0xe53 | thai:three  | th:three | Thai |
-| 0xe54 | thai:four  | th:four | Thai |
-| 0xe55 | thai:five  | th:five | Thai |
-| 0xe56 | thai:six  | th:six | Thai |
-| 0xe57 | thai:seven  | th:seven | Thai |
-| 0xe58 | thai:eight  | th:eight | Thai |
-| 0xe59 | thai:nine  | th:nine | Thai |
-| 0xe5a | thai:angkhankhu  | th:angkhankhu | Thai |
-| 0xe5b | thai:khomut  | th:khomut | Thai |
+| 0xe01 | thai:kokai  | th-kokai | Thai |
+| 0xe02 | thai:khokhai  | th-khokhai | Thai |
+| 0xe03 | thai:khokhuat  | th-khokhuat | Thai |
+| 0xe04 | thai:khokhwai  | th-khokhwai | Thai |
+| 0xe05 | thai:khokhon  | th-khokhon | Thai |
+| 0xe06 | thai:khorakhang  | th-khorakhang | Thai |
+| 0xe07 | thai:ngongu  | th-ngongu | Thai |
+| 0xe08 | thai:chochan  | th-chochan | Thai |
+| 0xe09 | thai:choching  | th-choching | Thai |
+| 0xe0a | thai:chochang  | th-chochang | Thai |
+| 0xe0b | thai:soso  | th-soso | Thai |
+| 0xe0c | thai:chochoe  | th-chochoe | Thai |
+| 0xe0d | thai:yoying  | th-yoying | Thai |
+| 0xe0e | thai:dochada  | th-dochada | Thai |
+| 0xe0f | thai:topatak  | th-topatak | Thai |
+| 0xe10 | thai:thothan  | th-thothan | Thai |
+| 0xe11 | thai:thonangmontho  | th-thonangmontho | Thai |
+| 0xe12 | thai:thophuthao  | th-thophuthao | Thai |
+| 0xe13 | thai:nonen  | th-nonen | Thai |
+| 0xe14 | thai:dodek  | th-dodek | Thai |
+| 0xe15 | thai:totao  | th-totao | Thai |
+| 0xe16 | thai:thothung  | th-thothung | Thai |
+| 0xe17 | thai:thothahan  | th-thothahan | Thai |
+| 0xe18 | thai:thothong  | th-thothong | Thai |
+| 0xe19 | thai:nonu  | th-nonu | Thai |
+| 0xe1a | thai:bobaimai  | th-bobaimai | Thai |
+| 0xe1b | thai:popla  | th-popla | Thai |
+| 0xe1c | thai:phophung  | th-phophung | Thai |
+| 0xe1d | thai:fofa  | th-fofa | Thai |
+| 0xe1e | thai:phophan  | th-phophan | Thai |
+| 0xe1f | thai:fofan  | th-fofan | Thai |
+| 0xe20 | thai:phosamphao  | th-phosamphao | Thai |
+| 0xe21 | thai:moma  | th-moma | Thai |
+| 0xe22 | thai:yoyak  | th-yoyak | Thai |
+| 0xe23 | thai:rorua  | th-rorua | Thai |
+| 0xe24 | thai:ru  | th-ru | Thai |
+| 0xe25 | thai:loling  | th-loling | Thai |
+| 0xe26 | thai:lu  | th-lu | Thai |
+| 0xe27 | thai:wowaen  | th-wowaen | Thai |
+| 0xe28 | thai:sosala  | th-sosala | Thai |
+| 0xe29 | thai:sorusi  | th-sorusi | Thai |
+| 0xe2a | thai:sosua  | th-sosua | Thai |
+| 0xe2b | thai:hohip  | th-hohip | Thai |
+| 0xe2c | thai:lochula  | th-lochula | Thai |
+| 0xe2d | thai:oang  | th-oang | Thai |
+| 0xe2e | thai:honokhuk  | th-honokhuk | Thai |
+| 0xe2f | thai:paiyannoi  | th-paiyannoi | Thai |
+| 0xe30 | thai:saraa  | th-saraa | Thai |
+| 0xe31 | thai:maihan-akat  | th-maihan-akat | Thai |
+| 0xe32 | thai:saraaa  | th-saraaa | Thai |
+| 0xe33 | thai:saraam  | th-saraam | Thai |
+| 0xe34 | thai:sarai  | th-sarai | Thai |
+| 0xe35 | thai:saraii  | th-saraii | Thai |
+| 0xe36 | thai:saraue  | th-saraue | Thai |
+| 0xe37 | thai:sarauee  | th-sarauee | Thai |
+| 0xe38 | thai:sarau  | th-sarau | Thai |
+| 0xe39 | thai:sarauu  | th-sarauu | Thai |
+| 0xe3a | thai:phinthu  | th-phinthu | Thai |
+| 0xe3f | thai:baht  | th-baht | Thai |
+| 0xe40 | thai:sarae  | th-sarae | Thai |
+| 0xe41 | thai:saraae  | th-saraae | Thai |
+| 0xe42 | thai:sarao  | th-sarao | Thai |
+| 0xe43 | thai:saraaimaimuan  | th-saraaimaimuan | Thai |
+| 0xe44 | thai:saraaimaimalai  | th-saraaimaimalai | Thai |
+| 0xe45 | thai:lakkhangyao  | th-lakkhangyao | Thai |
+| 0xe46 | thai:maiyamok  | th-maiyamok | Thai |
+| 0xe47 | thai:maitaikhu  | th-maitaikhu | Thai |
+| 0xe48 | thai:maiek  | th-maiek | Thai |
+| 0xe49 | thai:maitho  | th-maitho | Thai |
+| 0xe4a | thai:maitri  | th-maitri | Thai |
+| 0xe4b | thai:maichattawa  | th-maichattawa | Thai |
+| 0xe4c | thai:thanthakhat  | th-thanthakhat | Thai |
+| 0xe4d | thai:nikhahit  | th-nikhahit | Thai |
+| 0xe4e | thai:yamakkan  | th-yamakkan | Thai |
+| 0xe4f | thai:fongman  | th-fongman | Thai |
+| 0xe50 | thai:zero  | th-zero | Thai |
+| 0xe51 | thai:one  | th-one | Thai |
+| 0xe52 | thai:two  | th-two | Thai |
+| 0xe53 | thai:three  | th-three | Thai |
+| 0xe54 | thai:four  | th-four | Thai |
+| 0xe55 | thai:five  | th-five | Thai |
+| 0xe56 | thai:six  | th-six | Thai |
+| 0xe57 | thai:seven  | th-seven | Thai |
+| 0xe58 | thai:eight  | th-eight | Thai |
+| 0xe59 | thai:nine  | th-nine | Thai |
+| 0xe5a | thai:angkhankhu  | th-angkhankhu | Thai |
+| 0xe5b | thai:khomut  | th-khomut | Thai |
 | 0x1d5c | ainmod  | phon:ainmod | Phonetic Extensions |
+| 0x237e | misc:bell  | bell | Miscellaneous Technical |
 | 0xa7b3 | lt:Chi  | ltgr:Chi | Latin Extended-D |
 | 0xa7b4 | lt:Beta  | ltgr:Beta | Latin Extended-D |
 | 0xa7b5 | lt:beta  | ltgr:beta | Latin Extended-D |
@@ -1569,3 +1603,59 @@
 | 0xab65 | lt:Omegasmall  | Omegasmall | Latin Extended-E |
 | 0xab6a | LETTERLEFTTACKmod  | modLetterLeftTack | Latin Extended-E |
 | 0xab6b | LETTERRIGHTTACKmod  | modLetterRightTack | Latin Extended-E |
+| 0x1f3fb | emojiModifierFitzpatrickType-1-2  | fitzPatrickType12 | Miscellaneous Symbols and Pictographs |
+| 0x1f3fc | emojiModifierFitzpatrickType-3  | fitzPatrickType3 | Miscellaneous Symbols and Pictographs |
+| 0x1f3fd | emojiModifierFitzpatrickType-4  | fitzPatrickType4 | Miscellaneous Symbols and Pictographs |
+| 0x1f3fe | emojiModifierFitzpatrickType-5  | fitzPatrickType5 | Miscellaneous Symbols and Pictographs |
+| 0x1f3ff | emojiModifierFitzpatrickType-6  | fitzPatrickType6 | Miscellaneous Symbols and Pictographs |
+| 0x1f425 | front-facingBabyChick  | frontFacingBabyChick | Miscellaneous Symbols and Pictographs |
+| 0x1f455 | t-shirt  | tShirt | Miscellaneous Symbols and Pictographs |
+| 0x1f460 | high-heeledShoe  | highHeeledShoe | Miscellaneous Symbols and Pictographs |
+| 0x1f4b9 | chartUpwardsTrendAndYenSign  | chartUpTrendAndYenSign | Miscellaneous Symbols and Pictographs |
+| 0x1f4c6 | tear-offCalendar  | tearOffCalendar | Miscellaneous Symbols and Pictographs |
+| 0x1f4c8 | chartUpwardsTrend  | chartUpTrend | Miscellaneous Symbols and Pictographs |
+| 0x1f4c9 | chartDownwardsTrend  | chartDownTrend | Miscellaneous Symbols and Pictographs |
+| 0x1f4e7 | e-mail  | eMail | Miscellaneous Symbols and Pictographs |
+| 0x1f4e9 | envelopeDownwardsArrowAbove  | envelopeDownArrowAbove | Miscellaneous Symbols and Pictographs |
+| 0x1f503 | clockwiseDownwardsAndUpwardsOpenCircleArrows  | clockwiseDownAndUpOpenCircleArrows | Miscellaneous Symbols and Pictographs |
+| 0x1f504 | anticlockwiseDownwardsAndUpwardsOpenCircleArrows  | anticlockwiseDownAndUpOpenCircleArrows | Miscellaneous Symbols and Pictographs |
+| 0x1f50d | left-pointingMagnifyingGlass  | leftPointingMagnifyingGlass | Miscellaneous Symbols and Pictographs |
+| 0x1f50e | right-pointingMagnifyingGlass  | rightPointingMagnifyingGlass | Miscellaneous Symbols and Pictographs |
+| 0x1f514 | misc:bell  | bellsymbol | Miscellaneous Symbols and Pictographs |
+| 0x1f515 | bellCancellationStroke  | bellsymbolCancellationStroke | Miscellaneous Symbols and Pictographs |
+| 0x1f51d | topUpwardsArrowAbove  | topUpArrowAbove | Miscellaneous Symbols and Pictographs |
+| 0x1f520 | inputLatinCapitalLetters  | inputCapLatin | Miscellaneous Symbols and Pictographs |
+| 0x1f521 | inputLatinSmallLetters  | inputSmallLatin | Miscellaneous Symbols and Pictographs |
+| 0x1f523 | inputS  | inputSymbols | Miscellaneous Symbols and Pictographs |
+| 0x1f524 | inputLatinLetters  | inputLatin | Miscellaneous Symbols and Pictographs |
+| 0x1f53a | redTriangleUp  | upPointingRedTriangle | Miscellaneous Symbols and Pictographs |
+| 0x1f53b | redTriangleDOwn  | downPointingRedTriangle | Miscellaneous Symbols and Pictographs |
+| 0x1f53c | smallRedTriangleUp  | upPointingSmallRedTriangle | Miscellaneous Symbols and Pictographs |
+| 0x1f53d | smallRedTriangleDOwn  | downPointingSmallRedTriangle | Miscellaneous Symbols and Pictographs |
+| 0x1f541 | crossPommeeHalf-circleBelow  | crossPommeeHalfCircleBelow | Miscellaneous Symbols and Pictographs |
+| 0x1f550 | clockFaceOneOclock  | clockOne | Miscellaneous Symbols and Pictographs |
+| 0x1f551 | clockFaceTwoOclock  | clockTwo | Miscellaneous Symbols and Pictographs |
+| 0x1f552 | clockFaceThreeOclock  | clockThree | Miscellaneous Symbols and Pictographs |
+| 0x1f553 | clockFaceFourOclock  | clockFour | Miscellaneous Symbols and Pictographs |
+| 0x1f554 | clockFaceFiveOclock  | clockFive | Miscellaneous Symbols and Pictographs |
+| 0x1f555 | clockFaceSixOclock  | clockSix | Miscellaneous Symbols and Pictographs |
+| 0x1f556 | clockFaceSevenOclock  | clockSeven | Miscellaneous Symbols and Pictographs |
+| 0x1f557 | clockFaceEightOclock  | clockEight | Miscellaneous Symbols and Pictographs |
+| 0x1f558 | clockFaceNineOclock  | clockNine | Miscellaneous Symbols and Pictographs |
+| 0x1f559 | clockFaceTenOclock  | clockTen | Miscellaneous Symbols and Pictographs |
+| 0x1f55a | clockFaceElevenOclock  | clockEleven | Miscellaneous Symbols and Pictographs |
+| 0x1f55b | clockFaceTwelveOclock  | clockTwelve | Miscellaneous Symbols and Pictographs |
+| 0x1f55c | clockFaceOne-thirty  | clockOneThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f55d | clockFaceTwo-thirty  | clockTwoThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f55e | clockFaceThree-thirty  | clockThreeThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f55f | clockFaceFour-thirty  | clockFourThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f560 | clockFaceFive-thirty  | clockFiveThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f561 | clockFaceSix-thirty  | clockSixThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f562 | clockFaceSeven-thirty  | clockSevenThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f563 | clockFaceEight-thirty  | clockEightThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f564 | clockFaceNine-thirty  | clockNineThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f565 | clockFaceTen-thirty  | clockTenThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f566 | clockFaceEleven-thirty  | clockElevenThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f567 | clockFaceTwelve-thirty  | clockTwelveThirty | Miscellaneous Symbols and Pictographs |
+| 0x1f56d | ringingBell  | ringingBellsymbol | Miscellaneous Symbols and Pictographs |
+| 0x1f5de | rolled-upNewspaper  | rolledUpNewspaper | Miscellaneous Symbols and Pictographs |
