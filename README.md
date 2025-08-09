@@ -22,6 +22,10 @@ A system for generating glyph name lists from official Unicode data.
 * Release 0.6 Adds Mathematical Alphanumeric Symbols, housekeeping
 * Release 0.8.1 Adds names for Combining Diacritical Marks for Symbols, Control Pictures, Supplemental Arrows-B, Supplemental Arrows-C, Miscellaneous Mathematical Symbols-B, Supplemental Mathematical Operators, Miscellaneous Symbols and Arrows, Latin Extended-D, Latin Extended-F, Soyombo, Mahjong Tiles, Chess Symbols, Geometric Shapes Extended, Symbols and Pictographs Extended-A. Some renaming of latin-Greeks in IPA Extensions and Latin Extended-D with their own `ltgr` prefix. Disambiguation of the Farse numerals in the Arabic ranges. These had gone back and forth a couple of times and I hope these are ok. New prefix for Thai, changing from `thai:<name>` to `th-<name>`. Some names added from Miscellaneous Symbols and Pictographs.
 
+
+* Comparison between the current list and current RoboFont: https://github.com/LettError/glyphNameFormatter/blob/master/robofontUpdate.md
+* List of covered Unicode ranges: https://github.com/LettError/glyphNameFormatter/blob/master/coverage.md
+
 ### Contributions
 
 This release is not meant to be final. Many ranges have basic coverage but could be improved. Some Unicode names are wrong and then get translated wrong. The list does not claim authority or completeness. 
@@ -32,7 +36,13 @@ This version acknowledges the help by Frederik, Just, Adam, Daniel, Bahman and I
 
 ## Using conversion functions
 
-After all the processing is done, the lists can be used with a couple of convenient functions.
+After all the processing is done, the lists can be used with a couple of convenient functions from the **reader.py** module
+
+```python
+from glyphNameFormatter.reader import *
+print(n2u("clockFaceSixOclock"))
+>>0x1f555
+```
 
 * u2n(value) Unicode value to glyphname
 * n2u(name) Glyphname to Unicode value
