@@ -10,7 +10,7 @@ A system for generating glyph name lists from official Unicode data.
 * Font editors use their own lists that map names to unicode values.
 * So this system parses, generates and tweaks.
 
-### Glyph Name Formatted Unicode List Release 0.6 (ɣNUFL)
+### Glyph Name Formatted Unicode List Release 0.8.1 (ɣNUFL)
 
 [download](https://github.com/LettError/glyphNameFormatter/releases)
 
@@ -20,6 +20,7 @@ A system for generating glyph name lists from official Unicode data.
 * Release 0.4 fixes a bug in the conflict analysis. Better names for all.
 * Release 0.5 Improved support for Georgian names.
 * Release 0.6 Adds Mathematical Alphanumeric Symbols, housekeeping
+* Release 0.8.1 Adds names for Combining Diacritical Marks for Symbols, Control Pictures, Supplemental Arrows-B, Supplemental Arrows-C, Miscellaneous Mathematical Symbols-B, Supplemental Mathematical Operators, Miscellaneous Symbols and Arrows, Latin Extended-D, Latin Extended-F, Soyombo, Mahjong Tiles, Chess Symbols, Geometric Shapes Extended, Symbols and Pictographs Extended-A. Some renaming of latin-Greeks in IPA Extensions and Latin Extended-D with their own `ltgr` prefix. Disambiguation of the Farse numerals in the Arabic ranges. These had gone back and forth a couple of times and I hope these are ok. New prefix for Thai, changing from `thai:<name>` to `th-<name>`. Some names added from Miscellaneous Symbols and Pictographs.
 
 ### Contributions
 
