@@ -31,6 +31,42 @@ Parse the file when the module loads, then save the data in 3 dicts.
 
 """
 
+
+# these might be useful
+unicodeCategoryNames = {
+	"Cc":	"Control",
+	"Cf":	"Format",
+	"Cn":	"Unassigned",
+	"Co":	"Private Use",
+	"Cs":	"Surrogate",
+	"Ll":	"Lowercase Letter",
+	"Lm":	"Modifier Letter",
+	"Lo":	"Other Letter",
+	"Lt":	"Titlecase Letter",
+	"Lu":	"Uppercase Letter",
+	"Mc":	"Spacing Mark",
+	"Me":	"Enclosing Mark",
+	"Mn":	"Nonspacing Mark",
+	"Nd":	"Decimal Number",
+	"Nl":	"Letter Number",
+	"No":	"Other Number",
+	"Pc":	"Connector Punctuation",
+	"Pd":	"Dash Punctuation",
+	"Pe":	"Close Punctuation",
+	"Pf":	"Final Punctuation",
+	"Pi":	"Initial Punctuation",
+	"Po":	"Other Punctuation",
+	"Ps":	"Open Punctuation",
+	"Sc":	"Currency Symbol",
+	"Sk":	"Modifier Symbol",
+	"Sm":	"Math Symbol",
+	"So":	"Other Symbol",
+	"Zl":	"Line Separator",
+	"Zp":	"Paragraph Separator",
+	"Zs":	"Space Separator",
+}
+
+
 sanctionedNameList = 'glyphNamesToUnicodeAndCategories.txt'
 
 name2uni = {}
