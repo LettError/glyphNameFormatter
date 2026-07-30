@@ -1,3 +1,44 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "glyphNameFormatter"
+dynamic = ["version"]
+description = "Generate list of glyphnames from unicode names."
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+authors = [
+    {name = "Erik van Blokland", email = "erik@letterror.com"},
+    {name = "Frederik Berlaen", email = "frederik@typemytype.com"},
+]
+maintainers = [
+    {name = "Erik van Blokland", email = "erik@letterror.com"},
+    {name = "Frederik Berlaen", email = "frederik@typemytype.com"},
+]
+requires-python = ">=3.6"
+keywords = ["fonts", "typography", "unicode", "glyph names", "opentype"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Text Processing :: Fonts",
+]
+
+[project.urls]
+Homepage = "https://github.com/LettError/glyphNameFormatter"
+Repository = "https://github.com/LettError/glyphNameFormatter"
+Issues = "https://github.com/LettError/glyphNameFormatter/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "glyphNameFormatter.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["Lib"]
+
+[tool.setuptools.package-data]
+glyphNameFormatter = ["data/*.txt", "data/*.html", "data/*.xml"]

@@ -1,35 +1,32 @@
+.DS_Store
+*.pyc
+
 .venv
 .vscode
 
-*.pyc
-
+.idea
 .idea/.name
-
-.DS_Store
-
-
 .idea/encodings.xml
-
 .idea/glyphNameFormatter.iml
-
 .idea/vcs.xml
-
 .idea/scopes/scope_settings.xml
-
 .idea/modules.xml
-
 .idea/misc.xml
 
 *.sublime-project
-
 *.sublime-workspace
-Lib/Glyph_Name_Formatter.egg-info
+
 ArabicShaping.txt
 CaseFolding.txt
 test_encodings
-.idea
 Lib/glyphNameFormatter/data/conflicts
-issues
 Lib/glyphNameFormatter/data/AGD.txt
 Lib/glyphNameFormatter/data/GlyphData.xml
+
+issues
 /issue\#87
+
+# ignore locally-built packages
+build/*
+.eggs/*
+*.egg-info
