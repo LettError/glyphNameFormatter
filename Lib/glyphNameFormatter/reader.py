@@ -235,6 +235,11 @@ def isUpper(uni):
 		return False
 	return chr(uni).isupper()
 
+def isLower(uni):
+	if uni is None:
+		return False
+	return chr(uni).islower()
+
 if __name__ == "__main__":
     print("upperToLower map:", len(upperToLower))
     print("lowerToUpper map:", len(lowerToUpper))

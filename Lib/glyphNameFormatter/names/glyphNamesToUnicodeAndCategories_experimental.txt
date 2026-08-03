@@ -1,8 +1,8 @@
 # Glyph Name Formatted Unicode List - GNFUL
-# GlyphNameFormatter version 0.8.1 - git commit: 511
+# GlyphNameFormatter version 0.8.1 - git commit: 516
 # Unicode version: Unicode 16.0.0
-# Source code: https://github.com/LettError/glyphNameFormatter/tree/380a129
-# Generated on 2025 08 08 17:00:16
+# Source code: https://github.com/LettError/glyphNameFormatter/tree/3cd467e
+# Generated on 2026 08 02 10:25:02
 # <glyphName> <hex unicode> <unicodeCategory>
 #
 # Basic Latin
@@ -733,10 +733,10 @@ dblverticallineabovecmb 030E Mn
 gravedoublecmb 030F Mn
 candrabinducmb 0310 Mn
 invertedbrevecmb 0311 Mn
-commaturnedabovecmb 0312 Mn
-turnedabovecmb 0313 Mn
+turnedcommaabovecmb 0312 Mn
+commaabovecmb 0313 Mn
 reversedcommaabovecmb 0314 Mn
-turnedcommaabovecmb 0315 Mn
+commaaboverightcmb 0315 Mn
 gravebelowcmb 0316 Mn
 acutebelowcmb 0317 Mn
 lefttackbelowcmb 0318 Mn
@@ -753,7 +753,7 @@ retroflexhookbelowcmb 0322 Mn
 dotbelowcmb 0323 Mn
 dieresisbelowcmb 0324 Mn
 ringbelowcmb 0325 Mn
-commaaccentbelowcmb 0326 Mn
+commabelowcmb 0326 Mn
 cedillacmb 0327 Mn
 ogonekcmb 0328 Mn
 verticallinebelowcmb 0329 Mn

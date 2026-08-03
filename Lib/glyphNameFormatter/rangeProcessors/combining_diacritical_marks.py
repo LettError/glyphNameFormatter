@@ -11,6 +11,19 @@ def process(self):
     for a, b in AGLOverrides:
         if a == self.uniName:
             self.uniNameProcessed = b
+
+    commaOverrides = [
+        ("COMBINING TURNED COMMA ABOVE", 'turnedcommaabove'),
+        ("COMBINING COMMA ABOVE RIGHT", 'commaaboveright'),
+        ("COMBINING COMMA ABOVE", 'commaabove'),
+        ("COMBINING COMMA BELOW", 'commabelow'),
+        ("COMBINING REVERSED COMMA ABOVE", 'reversedcommaabove'),
+    ]
+    for a, b in commaOverrides:
+        if a == self.uniName:
+            self.uniNameProcessed = b
+
+
     self.edit("GREEK PERISPOMENI", "perispomeni")
     self.edit("GREEK KORONIS", "koronis")
     self.edit("GREEK DIALYTIKA TONOS", "dialytikatonos")
@@ -39,11 +52,6 @@ def process(self):
     self.edit("DOWN TACK", 'downtack')
     self.edit("UP TACK", 'uptack')
     self.edit("RIGHT TACK", 'righttack')
-    self.edit("REVERSED COMMA", 'reversedcomma')
-    self.edit("COMBINING COMMA ABOVE RIGHT", 'turnedcommaabove')
-    self.edit("TURNED COMMA", "commaturned")
-    self.edit("COMMA BELOW", "commaaccentbelow")
-    self.edit("COMMA", "turned")
     self.edit("DOT ABOVE RIGHT", "dotrightabove")
     self.edit("CANDRABINDU", "candrabindu")
     self.edit("EQUALS SIGN", "equal")
